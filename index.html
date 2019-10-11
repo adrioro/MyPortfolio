@@ -1,0 +1,2893 @@
+<!DOCTYPE html>
+<!-- Instruction to the web browser about what version of html the page is written in.-->
+<html lang="en">
+   <!--Declares the language of the Web page.-->
+
+   <head>
+      <!-- Contains title, scripts & styles and other metadata.-->
+      <meta charset="UTF-8">
+      <!-- Specifies the character encoding for the HTML document.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- gives the browser instructions
+    on how to control the page's dimensions -->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!--to choose what version of Internet Explorer
+    the page should be rendered as-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" href="mediaQuery.css">
+      <!--before all
+    other stylesheets to load Bootstrap's CSS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+      <!--For Open Graph: Facebook-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200i,400" rel="stylesheet"><!-- Google font-->
+      <link rel="stylesheet" href="style.css" class="css"><!-- <Required css style sheet</Re>-->
+
+      <link rel="stylesheet" href="mediaQuery.css"><!-- <Required css style sheet</Re>-->
+      <title>Adriana Cerrotti UX/UI Designer Portfolio</title>
+      <!-- For social Media -->
+      <meta property="og:site_name" content="Adriana Cerrotti UX/UI Designer Frontend Developer. Portfolio" />
+      <!-- Website Name -->
+      <meta property="og:description" content="UX/UI Designer, Front End Developer." />
+      <!-- Description of the site's content -->
+      <meta property="og:image" content="http://www.cerrottiadriana.com/images/ShareImageX.png" />
+      <!-- Image for facebook -->
+      <meta property="og:url" content="http://www.cerrottiadriana.com/" />
+      <!-- The URL -->
+      <meta property="og:type" content="website" />
+      <!--For Twitter Cards: Twitter-->
+      <meta name=”twitter:card” content="summary" />
+      <meta property="og:title" content=" Adriana Cerrotti UX/UI Designer" />
+      <meta property="og:description" content="A collection of pieces of work from Adriana Cerrotti UX/UI Designer." />
+      <meta property="og:url" content="http://www.cerrottiadriana.com/">
+      <meta property="og:image" content="http://www.cerrottiadriana.com/images/ShareImageX.png" />
+      <!-- Required -->
+      <!-- For Linkedin -->
+      <meta name="title" property="og:title" content="Adriana Cerrotti UX/UI Designer Portfolio.">
+      <meta name="description" property="og:description" content="Adriana Cerrotti is a UX/UI Designer and Coder. Learn about her work, her career, and professional background by navigating the site.">
+      <meta name="author" content="Adriana Cerrotti (UX/UI Designer, Front End Developer)">
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="images/faviconAC.ico">
+   </head>
+
+   <body>
+      <header class="header pt-2 pb-1" id="header" style="background-color: #090a0e;">
+         <!-- Navigation Bar -->
+         <div id="MyNav" class="navbar-container container">
+            <nav class="navbar-light bg-faded my_nav navbar navbar-expand-lg font-weight-light text-uppercase" style="background-color: #090a0e">
+               <!--navbar-light for icon line color-->
+
+               <button id="navbar-toggler custom-toggler" class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                 style="background-color: #eaeaec;">
+                  <!--Color of Icon-->
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <!--For small breakpoints-->
+               <!--MyName-->
+
+
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <ul class="bar_div navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-item nav-link active" href="#" id="homeMenu">Home
+                           <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           My Work
+                        </a>
+                        <div class="dropdown-menu" style="background-color: #090a0e;" aria-labelledby="navbarDropdown">
+                           <a id="ux" class="dropdown-item" href="#">UXD</a>
+                           <a id="ui" class="dropdown-item" href="#">UID & CODING</a>
+                           <a id="anima" class="dropdown-item" href="#">Animation</a>
+                           <a id="illust" class="dropdown-item" href="#">Illustration</a>
+                        </div>
+                     </li>
+                     <li>
+                        <a class="nav-item nav-link" href="#" id="aboutMenu">About
+                           Me</a>
+                     </li>
+                     <li>
+                        <a id="contact" class="nav-item nav-link" href="mailto:cerrotti@protonmail.com">Email
+                           me</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Follow Me
+                        </a>
+                        <div class="dropdown-menu" style="background-color: #090a0e;" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="https://www.linkedin.com/in/cerrotti/?trk=profile-badge" target="_blank">Linkedin</a>
+                           <a class="dropdown-item" href="https://www.facebook.com/pg/UserInterfaceUserExperienceDesign/about/?ref=page_internal" target="_blank">Facebook</a>
+                           <a class="dropdown-item" href="https://www.behance.net/adrianacerrotti" target="_blank">Behance</a>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="container blinkImage blinkLogo justify-content-center rounded-circle mr-1 mb-1" style="background-color: white;">
+                  <div class="row justify-content-center">
+                     <img src="images/blink.gif" class="blinkLogoImage cover img-fluid pb-2" alt="Home page image">
+                  </div>
+               </div>
+            </nav>
+         </div>
+         </div>
+      </header>
+
+      <!--SECTION: BLINK IMAGE-->
+      <main>
+         <div class="name" id="homeImage">
+            <div class="MyName col-12  pt-3 mb-1">
+
+               <h1 class="ACTitle display-4 text-center pt-3 pb-1 font-weight-heavy" style="color:#ff4c46;">ADRIANA
+                  CERROTTI</h1>
+
+               <!--SECTION:HOME WORDS-->
+               <div class=" container homeText text-sm-center" style="color:rgb(207, 203, 203);">
+
+                  <div class="row homeImage">
+                     <div class="container HomeParagraphCont" style="color: white;">
+                        <div class="row pt-4">
+                           <p class="col-sm-0 col-md-1 col-lg-2"></p>
+                           <p class="subText col-sm-12 col-md-10 col-lg-8 text-left text-md-center font-weight-light pb-5">I have a master's degree in UX design and skills in the areas of coding, animation, and illustration. <br>
+
+                              I am passionate about, creating innovative designs that enable businesses and clients, to share information and positively impact their products, services, and environments. <br>I have a constant urge for learning and
+                              working with people to achieve great user experiences.<br><br> Welcome to my portfolio!</p>
+                           <p class="col-sm-0 col-md-1 col-lg-2"></p>
+
+                        </div>
+                        <div class="iconsHome row p-2 pt-5 pb-4 mb-5 mt-4">
+                           <div class="cover rounded imgHolder icon iconUX col-md-3 col-sm-12 font-weight-light"><img class="rounded p-2 mb-2 text-uppercase" style="background-color: white;" src="images/UXIcon.png" alt="UX design icon"><br />UXD
+                           </div>
+                           <div class="cover rounded imgHolder icon iconFrontend col-md-3 col-sm-12 font-weight-light"><img class="rounded p-2 mb-2 text-uppercase" style="background-color: white;" src="images/FrontEndDevIcon.png"
+                                alt="Frontend icon"><br />UID/CODING
+                           </div>
+                           <div class="cover rounded imgHolder icon iconIllustration col-md-3 col-sm-12 font-weight-light"><img class="rounded p-2 mb-2 text-uppercase" style="background-color: white;" src="images/IllustrationIcon.png"
+                                alt="Illustration icon"><br />ILLUSTRATION</div>
+                           <div class="cover rounded imgHolder icon iconAnimation col-md-3 col-sm-12 font-weight-light"><img class="rounded p-2 mb-2 text-uppercase" style="background-color: white;" src="images/AnimationIcon.png"
+                                alt="Animation icon"><br />ANIMATION
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- SECTION: PAGE TITLE -->
+               <div class="pageTitleContainer container">
+                  <div class="row">
+                     <div class="col-12">
+                        <button id="backUX" type="button" class="backButton section font-weight-light btn btn-outline-secondary mb-3 mt-1 text-uppercase">Back
+                           to UXD</button>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12">
+                        <button id="backSpoon" type="button" class="backButton section font-weight-light  btn btn-outline-secondary mb-3 mt-1 text-uppercase">Back
+                           to Spoon Restaurante Project</button>
+                     </div>
+                     <div class="col-12">
+                        <button id="backFrontEnd" type="button" class="backButton section font-weight-light  btn btn-outline-secondary mb-3 mt-1 text-uppercase">Back
+                           to UID & Coding</button>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12">
+                        <button id="backIllustrations" type="button" class="backButton section font-weight-light btn btn-outline-secondary mb-3 mt-1 text-uppercase">Back
+                           to Illustration</button>
+                     </div>
+                  </div>
+                  <div id="empty" class="row">
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <!--SECTION: FRONT-END DEVELOPMENT CARDS-->
+         <section class="section container FrontEnd pb-4" style="background-color: white;" id="FrontEnd">
+            <div class="row">
+               <div class="col-12 text-center mt-4 mb-4">
+                  <div class="display-4 text-dark">UID & Coding</div>
+                  <h4 class="font-weight-light text-center text-dark">Styling,
+                     Visualization, and Coding</h4>
+               </div>
+               <div class="col-12 text-center bg-white ">
+                  <p>I have a passion for designing graphical interface
+                     that
+                     would
+                     interact with data!
+                  </p>
+               </div>
+            </div>
+            <div class="cards container">
+               <div class="firstRow row">
+                  <!--Sandusky card-->
+                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:">
+                     <img id="sanduskyCardImage" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="
+                      images/UI/sanduskyCard.png" alt="Card image cap"><a href="#"></a>
+                     <div class="card-body mt-2">
+                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">Sandusky Community Library Project (Part 2)</h5>
+                        <p class="subtitles card-title font-weight-light text-dark">Website re-design project.
+                        </p>
+                        <ul class="subtitles card-title text-dark font-weight-light">
+                           <li>UID</li>
+                           <li>Visual Design </li>
+                           <li>Hi-Fi Sketch Prototype.
+                           </li>
+                        </ul>
+                        <a id="sandusky" href="#" class="card-link">Explore
+                           the
+                           project.</a>
+                     </div>
+                  </div>
+                  <!--Dribbble Card-->
+                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:15px;">
+                     <a href="https://dribbble.com/adrioro/projects" target="_blank" id="dribbbleCardTooltip" data-toggle="tooltip" data-placement="top" title="Dribbble will open in a new window"><img id="quizCardImage" class="lazyload card-img-top"
+                          src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/dribbbleCard.png" alt="Card image cap"></a>
+                     <div class="card-body mt-2">
+                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">MY UI PROJECTS AT DRIBBBLE</h5>
+                        <p class="subtitles card-title font-weight-light text-dark">Check my prototypes, icons, and other UI designs projects at Dribbble.</p>
+                        <ul class="subtitles card-title text-dark font-weight-light">
+                           <li>UI Design </li>
+                           <li>Sketch</li>
+                           <li>inVision</li>
+                           <li>AdobeXD</li>
+                        </ul>
+                        <p><a href="https://dribbble.com/adrioro/projects" target="_blank" id="dribbbleTooltip" data-toggle="tooltip" data-placement="bottom" title="Dribbble will open in a new window">Visit
+                              my dribbble portfolio .</a></p>
+                     </div>
+                  </div>
+
+                  <!--Quiz card-->
+                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:15px;">
+                     <a href="https://interactive-quiz-full-version--acerreplit.repl.co/" target="_blank" id="QuizCardTooltip" data-toggle="tooltip" data-placement="top" title="Interactive Quiz App will open in a new window"><img id="quizCardImage"
+                          class="lazyload card-img-top"><img id="quizCardImage" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/quizCard.png" alt="Card image cap"></a>
+                     <div class="card-body mt-2">
+                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">INTERACTIVE QUIZ</h5>
+                        <p class="subtitles card-title font-weight-light text-dark">This is an interactive quiz. I designed and developed it. It tests people's knowledge about HTML and demonstrates my coding skills.</p>
+                        <ul class="subtitles card-title text-dark font-weight-light">
+                           <li>UI Design </li>
+                           <li>Responsive Hi-Fi Mockup
+                              (HTML5, CSS, Javascript, JQuery).</li>
+                        </ul>
+                        <p><a href="https://interactive-quiz-full-version--acerreplit.repl.co/" target="_blank" id="quizPageTooltip" data-toggle="tooltip" data-placement="bottom" title="Interactive Quiz App will open in a new window">Visit
+                              the Quiz page.</a></p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+         <!---------------->
+         <!--SECTION: ILLUSTRATION CARDS-->
+         <section class="section container illustrationKinds pb-3" style="background-color: white;" id="IllustrationKinds">
+            <div class="row">
+               <div class="col-12 text-center mt-4 mb-4">
+                  <h1 class="display-4 text-dark">Illustration</h1>
+               </div>
+               <div class="col-12 p-4 text-center bg-white ">
+                  <p>I highly enjoy illustrating. As a digital illustrator,
+                     I use tools such as Painter, Illustrator, Adobe Flash,
+                     and Photoshop. I have a background in fine arts from
+                     where my abilities as a colorist developed, and a
+                     solid drawing foundation that I applied for years to
+                     the fields
+                     of traditional animation, character design, layout,
+                     and storyboard creation. These is a
+                     selection of illustrations and infographics.
+                  </p>
+               </div>
+            </div>
+            <div class="cards container">
+               <div class="firstRow row mb-4">
+                  <!--children book illustration-->
+                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top: 15px;">
+                     <img id="childrenCardIllust" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="
+                 images/Illustration02.png" alt="Card image cap"><a href="#"></a>
+                     <div class="card-body">
+                        <h5 class="subtitles card-title text-dark font-weight-normal text-uppercase" style="color:white;">Children's
+                           Book Illustration</h5>
+                        <a id="cartoon" href="#" class="card-link">See
+                           the
+                           selection.</a>
+                     </div>
+                  </div>
+                  <!--other illustration-->
+                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top: 15px;">
+                     <img id="otherCardIllust" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/SCANNING.jpg" alt="Card image cap"><a href="#"></a>
+                     <div class="card-body mt-2">
+                        <h5 class="subtitles card-title text-dark font-weight-normal text-uppercase" style="color:white;">Logos,
+                           Infographics
+                           and Other Illustrations</h5>
+                        <a id="infographic" href="#" class="card-link">See
+                           the selection</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!---------------->
+
+         <!--SECTION: UX DESIGN CARDS-->
+         <section class="section container UXDesign" id="UXDesign">
+            <div class="UXTExt firstRow row p-5" style="background-color: white;">
+               <div class="col-12 text-center pt-4">
+                  <h1 class="display-4 text-dark">UX Design (UXD)</h1>
+               </div>
+               <div class="col-12 p-4 text-justify bg-white mb-3">
+                  <p>I am trained to design effective user experiences and
+                     workflows. I
+                     completed a Master of Science in Information
+                     Architecture and Knowledge Management degree with
+                     a
+                     concentration in UX design. I am passionate about
+                     both, visual and interaction design.
+                  </p>
+               </div>
+               <div class="cards container">
+                  <div class="firstRow row">
+                     <div class="card col-sm-auto mb-5" style="width: 21rem; padding-top: 15px;">
+                        <img id="sanduskyCardUX" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/sanduskyUX.png" alt="Card image cap"><a href="#"></a>
+                        <div class="card-body mt-2">
+                           <p class="card-text text-light font-weight-light text-dark">The Upper Sandusky Community Library project is a re-design enterprise. It involves two Parts. Part 1, and Part 2 which you'll find on the UI & Coding section of
+                              this
+                              portfolio. .</p>
+
+                           <p class="font-weight-light">Explore the <a id="goToSandusky" href="#">Design
+                                 process</a></p>
+                        </div>
+                     </div>
+                     <div class="card col-sm-auto mb-5" style="width: 21rem; padding-top: 15px;">
+                        <img id="reminderCardUX" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderX.jpg" alt="Card image cap"><a href="#"></a>
+                        <div class="card-body mt-2">
+                           <p class="card-text text-dark font-weight-light">
+                              Reminder X is a reminder app for iPhone and
+                              Android phones. </p>
+                           <p>Explore the <a id="goToReminder" href="#">Design
+                                 process</a></p>
+
+                        </div>
+                     </div>
+                  </div>
+                  <div class="firstRow row">
+                     <div class="card col-sm-auto mb-5" style="width: 21rem; padding-top: 15px;">
+                        <img id="lunchMoneyCardUX" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/LunchMoneyBuddy.jpg" alt="Card image cap"><a href="#"></a>
+                        <div class="card-body mt-2">
+                           <p class="card-text text-light font-weight-light text-dark">Lunch
+                              Money Body is an application designed for
+                              parents to order student's lunches online.</p>
+
+                           <p class="font-weight-light">Explore the <a id="goToLunch" href="#">Design
+                                 process</a></p>
+                        </div>
+                     </div>
+                     <div class="card col-sm-auto" style="width: 21rem; padding-top: 15px;">
+                        <img id="beautifulCardUX" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/Beautiful.jpg" alt="Card image cap"><a href="#"></a>
+                        <div class="card-body mt-2">
+                           </h5>
+                           <p class="card-text text-dark font-weight-light">
+                              This is a children's book app for toddlers
+                              and small children.</p>
+                           <p>Explore the <a id="goToBeautiful" href="#">Design
+                                 process</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card col-sm-auto" style="width: 21rem; padding-top: 15px;">
+                  <img id="papaCardUX" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJohns.jpg" alt="Card image cap"><a href="#"></a>
+                  <div class="card-body mt-2">
+                     <p class="card-text text-dark font-weight-light">
+                        This is a usability test report on the
+                        ability of
+                        Papa John’s Pizza website to deliver the
+                        best user experience to its clients.</p>
+
+                     <p>Explore the <a id="goToPapaJohns" href="#">Design
+                           process</a></p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!------------------------------------->
+
+         <!--SECTION: ILLUSTRATION SELECTION-->
+         <!--SECTION: Children's Book Illustration-->
+         <section class="section container ChildrenIllustration" style="background-color: white;" id="childIllustration">
+            <div class="container pb-4">
+               <div class="row mb-4">
+                  <div class="col-12 text-center mt-4">
+                     <h2 class="font-weight-light text-uppercase">Children's
+                        Book Illustration</h2>
+                  </div>
+               </div>
+               <div class="row text-center">
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/skate.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/Julia.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/NeverGiveUp.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+               </div>
+               <div class="row text-center">
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/toilettepapers.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/BIOut.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+                  <div class="col-lg col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/teachmebaker.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+               </div>
+               <div class="row text-center">
+                  <div class="col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/CATS.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-12 text-center mt-4">
+                     <h2 class="font-weight-light text-uppercase">Illustrator</h2>
+                     <h4 class="font-weight-light">(Working with Shadow
+                        shapes)</h4>
+                  </div>
+               </div>
+
+               <div class="row text-center">
+                  <div class="col-md-12">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/Woman.jpg" class="lazyload img-thumbnail mb-4" alt="Book Cover Illustration">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--SECTION: Infographics and Other Illustration-->
+         <section class="section container InfoIllustration" style="background-color: white;" id="InfoIllustration">
+            <!--   <h3 class="text-center mt-5" style="color: #3588a1">MY WORK</h3> -->
+            <div class="container pb-4">
+               <div class="row mb-4">
+                  <div class="col-12 text-center mt-4">
+                     <h2 class="font-weight-light text-uppercase mb-4">Logos,
+                        Infographics
+                        and Other Illustrations</h2>
+                     <h4 class="font-weight-light">Alphalink Inventory
+                        Auditing</h4>
+                  </div>
+               </div>
+               <div class="row text-center h-100">
+                  <figure class="figure col-12 col-md-6 mt-3 mb-3 h-100">
+                     <img class="lazyload figure-img img-fluid rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/ALK_COIN.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Alphalink
+                        Inventory System.
+                        Page 2</figcaption>
+                  </figure>
+                  <figure class="figure col-12 col-md-6 mt-3 mb-3 h-100">
+                     <img class="lazyload figure-img img-fluid rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/SCANNING.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Alphalink
+                        Inventory Scanning
+                        Page 2</figcaption>
+                  </figure>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-12 text-center mt-4">
+                     <h4 class="font-weight-light">Illustration for Report
+                        on UX
+                        Testing</h4>
+                  </div>
+               </div>
+               <div class="row text-center mb-4">
+                  <div class="col-2"></div>
+                  <figure class="figure col-12 col-md-8 mt-3">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Illustration/phonewhand_01.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Eye
+                        tracking.
+                        testing Illlustration.
+                     </figcaption>
+                  </figure>
+                  <div class="col-2"></div>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-12 text-center mt-4">
+                     <h4 class="font-weight-light">Logo Design</h4>
+                  </div>
+               </div>
+               <div class="row logos text-center mt-4 mb-4">
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/HIGI.jpg" alt="Responsive Image"></div>
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/AlphaLink.jpg" alt="Responsive Image"></div>
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/HippolytaGifts.jpg" alt="Responsive Image"></div>
+               </div>
+               <div class="row text-center mb-4">
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/TinyTall.jpg" alt="Responsive Image"></div>
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/CUISINE.jpg" alt="Responsive Image"></div>
+                  <div class="col-sm-4"><img class="lazyload figure-img w-100 p-4 rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Logo/HIPPOLYTTA.jpg" alt="Responsive Image"></div>
+               </div>
+
+            </div>
+         </section>
+
+
+         <!---------------------------------------->
+         <!--SECTION: ABOUT-->
+
+         <section class="section container about" style="background-color: white;" id="about">
+            <div class="row">
+               <div class="col-12 text-center mt-4 mb-4">
+                  <h1 class="display-4">About Me</h1>
+                  <h3 class="h3About font-weight-light">Adriana Cerrotti</h3>
+               </div>
+
+            </div>
+
+            <div class="myAbout container ">
+               <div class="aboutRow row">
+                  <div class="col-sm-8 col-lg-7 main-text text-sm-center text-md-left text-lg-left">
+                     <h1>I am...</h1>
+                     <p>A UX/UI designer passionate about creating efficient information architecture, software interaction, and satisfying experiences for the user. I am a designer that loves coding and creating prototypes. I have
+                        strong additional experience in a wide range of disciplines in the fields of traditional and 2D animation, digital design, illustration, and <a href="http://www.cerrotti.com/Cerrotti/WELCOME.html" target="_blank"
+                          id="photographyPageTooltip" data-toggle="tooltip" data-placement="bottom" title="This portfolio will open in a new window">photography</a>,
+                        More than anything, I am a perpetual learner remarkably comfortable with change and innovation.</p>
+                     <br>
+                     <!--facebook-->
+
+                  </div>
+                  <div class="portraitFrame col-sm-8 col-md-10 col-lg-5 main-image d-flex align-items-center justify-content-center">
+                     <img class="myImage rounded-circle lazyload portrait mr-0 w-50 m-3" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/ACPort.jpg" alt="Portrait Image">
+                  </div>
+
+                  <div class="myWork container">
+                     <div class="row">
+                        <div class="workLine col-sm-12">
+                           <hr>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="WhatDoIDoRow row">
+                     <div class=" col-lg-1"></div>
+                     <div class=" col-sm-12 col-md-12 col-lg-10 whatDoIDo text-sm-center text-md-center mx-auto">
+                        <h2 class="pt-5">What do I do?</h2>
+                        <div class="DoList col-sm-12 col-md-12 col-lg-10 text-sm-center mx-auto">
+                           <ul class="doList list-unstyled">
+                              <li class="WorkingField">
+                                 <h4 class="pt-4 text-left text-info font-weight-heavy">UX
+                                    Design</h4>
+                                 <p class="text-left">I hear and
+                                    respond
+                                    to the business'
+                                    specific needs, and those of
+                                    the
+                                    individuals
+                                    they might target using the
+                                    following design modality.</p>
+                                 <div class="DesignImage col-sm-10 col-md-10 col-lg-10 text-sm-center mx-auto">
+                                    <img class="lazyload img-fluid pt-4 pb-5" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Design.png" alt="Design process">
+                                 </div>
+                                 <ul>
+                                    <li class="text-left">
+                                       <h5>Skills:</h5>
+                                       User Research, Design Thinking, Information Architecture, Knowledge management, Wireframing and prototyping, Storytelling and Storyboarding.
+                                    </li>
+                                    <br>
+                                    <li class="text-left">
+                                       <h5>Tools
+                                          that I use:</h5>
+                                       Balsamic, inVision,
+                                       Adobe XD
+                                       Omnigraffle, Lucidart,
+                                       Moqups, Proto.io,
+                                       MindMup, Validately,
+                                       Twilio, Chalkmark,
+                                       Treejack.
+                                    </li>
+                                 </ul>
+                                 <br>
+
+                              </li>
+                              <li class="WorkingField">
+                                 <h4 class="pt-4 text-left text-info font-weight-heavy">UI
+                                    Design and Coding</h4>
+                                 <p class="text-left">I have a
+                                    passion
+                                    for
+                                    producing
+                                    quality responsive websites
+                                    with
+                                    exceptional user experience
+                                    using
+                                    efficient interface design
+                                    systems. </p>
+                                 <div class="DesignImage col-sm-10 col-md-10 col-lg-10 text-sm-center mx-auto">
+                                    <img class="lazyload img-fluid pt-4 pb-5" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/atomic.png" alt="Atomic Design">
+                                 </div>
+
+                                 <ul>
+                                    <li class="text-left">
+                                       <h5>Skills:</h5>
+                                       HTML5,
+                                       CSS,
+                                       JavaScript, JQuery, Media Queries, and prototyping.
+                                    </li>
+                                    <br>
+                                    <li class="text-left">
+                                       <h5>Tools
+                                          that I use:</h5>
+                                       Atom, Visual Studio Code, Canopy, GitHub, Webflow, Adobe xd, Sketch, inVision among
+                                       others.
+                                    </li>
+                                 </ul>
+                                 <br>
+
+                                 <h4 class="pt-4 text-left text-info font-weight-heavy">Animation</h4>
+                                 <p class="text-left">I have a vast
+                                    experience in the field of
+                                    animation,
+                                    character design and
+                                    storyboarding.</p>
+                                 <ul>
+                                    <li class="text-left">
+                                       <h5 class="text-left">Skills:</h5>
+                                       <p>Traditional and 2D animation.</p>
+                                    </li>
+                                    <li class="text-left">
+                                       <h5 class="text-left">Tools
+                                          that I use:</h5>
+                                       <p>Adobe Flash, Photoshop.</p>
+                                    </li>
+                                 </ul>
+
+
+                                 <h4 class="pt-4 text-left text-info font-weight-heavy">Illustration</h4>
+                                 <p class="text-left">I have a vast
+                                    experience in the field of
+                                    illustration, particularly children's book design and illustration.</p>
+                                 <ul>
+                                    <li>
+                                       <h5 class="text-left">Skills:</h5>
+                                       <p class="text-left">Drawing, sketching, and character and icon design.</p>
+                                    </li>
+                                    <li>
+                                       <h5 class="text-left">Tools
+                                          that I use:</h5>
+                                       <p class="text-left">Illustrator,
+                                          Painter, Photoshop,
+                                          Adobe
+                                          Flash.</p>
+                                    </li>
+                                 </ul>
+                                 <h4 class="pt-4 text-left text-info font-weight-heavy">Photography</h4>
+                                 <p class="text-left">I studied
+                                    Digital
+                                    Photography at Pierce College
+                                    back
+                                    in California and worked as a
+                                    freelance photographer in LA.</p>
+                                 <ul>
+                                    <li>
+                                       <h5 class="text-left">Skills:</h5>
+                                       <p class="text-left">Traditional and Digital Photography.</p>
+                                    </li>
+                                    <li>
+                                       <h5 class="text-left">Tools
+                                          that I use:</h5>
+                                       <p class="text-left">Photoshop,
+                                          Adobe
+                                          Camera Raw.</p>
+                                    </li>
+                                 </ul>
+                                 <p class="text-left"><a href="http://www.cerrotti.com/Cerrotti/WELCOME.html" target="_blank" id="OpenNewSiteTooltip" data-toggle="tooltip" data-placement="bottom"
+                                      title="This portfolio will open in a new window">Adriana
+                                       Cerrotti Photography</a></p>
+                              </li>
+                              <h4 class="pt-4 text-left text-info font-weight-heavy">
+                                 Other Abilities and Hobbies.
+                              </h4>
+                              <p class="text-left">I am bilingual (English/Spanish).<br>I am a hapkido orange belt.</p>
+
+                        </div>
+                        <div class="getInTouch text-center col-sm 12 col-md-10 col-lg-10 mx-auto">
+                           <h2 class="pt-5">Interested in Hiring Me?</h2>
+                           <p>I'd love to hear about your project!
+                        </div>
+                        <button class="emailImage emailButton btn btn-light mb-4 mt-4">
+                           Email Me
+                        </button>
+                        <div class="socialMedia p-2 text-center">
+                           <p>Or follow me at:</p>
+                           <p><a href="https://www.linkedin.com/in/cerrotti?trk=profile-badge" target="_blank">Lindedin</a><br>
+                              <a href="https://www.facebook.com/pg/Adriana-Cerrotti-UXUI-Developer-370764413653216/about/?ref=page_internal" target="_blank">Facebook</a><br>
+                              <a href="https://www.behance.net/adrianacerrotti" target="_blank">Behance</a></p>
+                        </div>
+                     </div>
+                     <div class="col-lg-1"></div>
+                     <!--Sides-->
+                  </div>
+                  <hr>
+               </div>
+         </section>
+
+         <!--SECTION FRONT END DEV. Samples-->
+         <!--RFID -->
+         <div id="rfidDesignPage" class="container p-5 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark">Lightning
+               RFID</div>
+            <div class="row mb-3">
+               <div class="col-6 display-5">
+                  <h5></h5>
+               </div>
+               <div class="col-6 text-right">February 2019</div>
+            </div>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+               <p>I created this project with the purpose of
+                  illustrating some of my
+                  UI design and coding skills while helping a small start-up
+                  company called LightningRFID to design a potential home
+                  page.
+                  This section of my portfolio is focused more on the
+                  graphics and
+                  digital design aspects of a product. To explore my
+                  user-centered
+                  UX design
+                  projects and their processes, please visit
+                  the <a class="UXLink" href="#">UX design</a> section of
+                  my
+                  website.</p>
+               <div class="row bg-white">
+                  <div class="col-12 p-9">
+                     <ul class="list-group mb-4">
+                        <il class="list-group-item" style="border: none;">●
+                           UI
+                           Design ✓</il>
+                        <il class="list-group-item" style="border: none;">●
+                           Responsive
+                           High
+                           Fidelity
+                           Mockup
+                           (HTML5, CSS, Javascript, JQuery). ✓</il>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class=" row">
+                  <img class="lazyload img-fluid mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RFID_MOCK.jpg" alt="Responsive image">
+               </div>
+               <div class=" row">
+                  <img class="lazyload img-fluid mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RFID.png" alt="Responsive image">
+               </div>
+               <div class="row">
+                  <h1 class="col mb-4 text-sm-center"><small class="text-sm-center text-mutted">
+                        Palette</small></h1>
+               </div>
+
+               <img class="lazyload img-fluid mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RFIDpalette.png" alt="Responsive image">
+               <div class="container">
+                  <div class="row">
+                     <h1 class="col-12 mb-4 text-sm-center"><small class="text-sm-center text-mutted">
+                           Font Family</small></h1>
+                  </div>
+                  <div class="row mx-auto d-block">
+
+                     <div class="col-12 img-fluid text-sm-center"><img class="lazyload mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RFIDfont.png" alt="Responsive image"></div>
+
+                  </div>
+               </div>
+
+               <div class="row">
+                  <h1 class="col-12 mb-4 text-sm-center"><small class="text-sm-center text-mutted">
+                        Mobile First</small></h1>
+               </div>
+               <div align="center" class="embed-responsive embed-responsive-16by9 mt-4">
+                  <video autoplay loop class="embed-responsive-item">
+                     <source src="images/UI/SpoonDesk.mov" type="video/mp4">
+                  </video>
+               </div>
+
+
+            </div>
+            <div class="col-12 text-sm-center mt-5">
+               <p><a href="https://lightningrfid-website--acerreplit.repl.co" target="_blank" id="LightningPageTooltip" data-toggle="tooltip" data-placement="bottom" title="This page will open in a new window">LINK
+                     TO THE PAGE</a></p>
+            </div>
+         </div>
+         <!---->
+         <!--SPOON Restaurante -->
+         <div id="spoonDesignPage" class="container p-5 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark">SPOON Restaurant</div>
+            <div class="row mb-3">
+               <div class="col-6 display-5">
+                  <h5></h5>
+               </div>
+               <div class="col-6 text-right">February 2019</div>
+            </div>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+               <p>I designed this website with the purpose of illustrating my
+                  UI design and coding skills. I applied the mobile-first
+                  responsive design approach with a progressive enhancement
+                  mindset where content was the priority.
+               </p>
+               <p class="border p-3"><strong>Please note</strong>, this piece of my portfolio is mainly focused
+                  on
+                  general aspects of the human-centered experience of the
+                  product.
+                  To explore my user-centered
+                  design
+                  projects and their processes, please visit
+                  the <a class="UXLink" href="#">UXD</a> section of
+                  my
+                  website.</p>
+               <ul class="list-group mb-4">
+                  <il class="list-group-item" style="border: none;">●
+                     Responsive,
+                     Mobile-first,
+                     Web
+                     Design (HTML5, CSS, Javascript, JQuery). ✓</il>
+                  <il class="list-group-item" style="border: none;">●
+                     Logo Design.✓
+                  </il>
+               </ul>
+            </div>
+            <div class="container">
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload img-fluid mb-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/Restaurante_MOCK.jpg" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+
+               <div class=" row">
+                  <h1 class="col text-sm-center mb-4"><small class="text-mutted">
+                        Mobile First</small></h1>
+               </div>
+
+               <div class="row mb-5">
+                  <div class="col-4 "></div>
+                  <video autoplay loop class="col-4 videoSpoonMov text-center embed-responsive-item border">
+                     <source src="images/UI/SpoonMov.mov" type="video/mp4">
+                  </video>
+                  <div class="col-4 mb-5 "></div>
+               </div>
+               <div class="row mt-3">
+                  <div class="col-1 "></div>
+                  <video autoplay loop class="col-10 videoSpoonDesk text-center embed-responsive-item mb-5">
+                     <source src="images/UI/SpoonDesk.mov" type="video/mp4">
+                  </video>
+                  <div class="col-1 "></div>
+               </div>
+            </div>
+            <div class=" row">
+               <div class="col"></div>
+               <img class="lazyload col-7 img-fluid mb-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RestauranteIpad.png" alt="Responsive image">
+               <div class="col"></div>
+            </div>
+            <div class=" row">
+               <h1 class="col text-sm-center mb-4"><small class="text-mutted">
+                     Palette</small></h1>
+            </div>
+            <img class="lazyload img-fluid mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RestaurantePalette.png" alt="Responsive image">
+            <div class=" row">
+               <h1 class="col text-sm-center mb-4"><small class="text-mutted">
+                     Font Family</small></h1>
+            </div>
+            <div class="container h-md-100">
+               <div class="row align-items-center text-center h-md-100">
+                  <div class="col-12 col-md-6"><img class="lazyload mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RestaurantFontRaleway.png" alt="Responsive image"></div>
+                  <div class="col-12 col-md-6"><img class="lazyload mb-5 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/RestaurantFontLobster.png" alt="Responsive image"></div>
+               </div>
+            </div>
+            <div class="col-12 text-center mt-5 mb-5">
+               <p><a href="https://restaurante--acerreplit.repl.co/" target="_blank" id="SpoonPageTooltip" data-toggle="tooltip" data-placement="bottom" title="This site will open in a new window">LINK
+                     TO THE SITE</a></p>
+            </div>
+         </div>
+         </div>
+         <!---->
+
+         <!--SANDUSKY COMMUNITY LIBRARY - PART II -->
+         <div id="sanduskyPagePart2" class="container p-5 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark text-center">Upper Sandusky Community Library Re-Design Project (Part II).</div>
+            <div class="row mb-3">
+               <div class="col-12">
+                  <h4 class="font-weight-light text-center text-dark">User Centered UI and Branding Re-design</h4>
+                  <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">About The Project</h5>
+               </div>
+            </div>
+
+            <p class="mb-2 mt-4">The Upper Sandusky Community Library re-design project was big. I divided the project into two parts. Part 1 is about the first stages of the UX re-design project, and Part 2 is the continuation (UID
+               and re-Branding). If you are interested in exploring how I arrive at the conclusions that guided this section of the process, I invite you to visit <a class="PartILink" href="#">Part I</a> from the <strong>UXD</strong> section of my
+               portfolio.</p>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+            </div>
+            <div class="container">
+               <div class=" row">
+
+                  <img class="lazyload img-fluid mb-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/Sandusky.png" alt="Responsive image">
+
+                  <figcaption class="figure-caption text-right">Upper Sandusky Desktop UI re-Designed.</figcaption>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Deliverables</h5>
+               <ul class="list-group mb-4">
+                  <il class="list-group-item" style="border: none;">●
+                     Logo Design & Brand voice.
+                  </il>
+                  <il class="list-group-item" style="border: none;">●
+                     User Research (Please check UX section for this project)
+                  </il>
+                  <il class="list-group-item" style="border: none;">●
+                     UI re-Design.
+                  </il>
+                  <il class="list-group-item" style="border: none;">●
+                     IA re-Design.
+                  </il>
+                  <il class="list-group-item" style="border: none;">●
+                     Sketches, UI style guide, Wireflow, Wireframes and hi-fi Prototype.
+                  </il>
+               </ul>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Tools</h5>
+               <il class="list-group-item" style="border: none;">●
+                  Treejack, Sketch, Photoshop, Omnigraffle, and Lucidart.</il>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">The Client</h5>
+               <p class="mb-4 mt-4">The Upper Sandusky Community Library Website<br>
+                  301 N. Sandusky Ave.<br>
+                  Upper Sandusky, OH 43351<br>
+                  (419) 294-1345 | info@upper-sandusky.lib.oh.us</p><br>
+               <h5 class="font-weight-normal text-dark display-5 mt-2 mb-4 text-uppercase">The Problem</h5>
+               <p class="mb-4 mt-4">The Upper Sandusky Community library's website was technologically outdated. It was difficult for users to find content. The site was not easy to maintain - most particularly because of the lack of funding for the
+                  project and the small size of the staff to serve this purpose.</p>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">About The Process</h5>
+               <p class="mb-4 mt-4">This section of the Upper Sandusky Community Library re-design process involved the creation of a new brand image and user interface.<br>
+                  <br>
+                  Previous to the re-design of its user interface, I run an iterative process that that involved understanding the user and his/her context, creating and assessing labeling and taxonomy, and finalized with the design of the required
+                  wireframes. To learn more about this stage of the process, please visit the UX section Upper Sandusky Library research and IA re-design. </p>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">The Original Version of the Website</h5>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/OldVersion.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/OldVersion2.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Website Branding Exploration</h5>
+               <p class="mb-4 mt-4">I chose to used technics such as cart sorting and bran auditing to make my UI re-design and re-branding desitions. It helped me to distinguish the strengths and weaknesses of the business and plan corrective
+                  strategies.</p>
+               <div class="container mt-4">
+                  <div class="row mb-5">
+                     <div class="col-1"></div>
+                     <figure class="col-5"><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/branding2.jpg" alt="Responsive image">
+                        <figcaption class="figure-caption text-right">Bad ideas first.</figcaption>
+                     </figure>
+
+                     <figure class="col-5 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/branding1.jpg" alt="Responsive image">
+                        <figcaption class="figure-caption text-right">Brand audit and other notes.</figcaption>
+                     </figure>
+
+                     <div class="col-1"></div>
+                  </div>
+                  <div class="row">
+                     <div class="col-3"></div>
+                     <figure class="col-6 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/cardSorting.jpg" alt="Responsive image">
+                        <figcaption class="figure-caption text-right">Initial cart sorting.</figcaption>
+                     </figure>
+                     <div class="col-3"></div>
+                  </div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Mood Board</h5>
+               <p class="mb-4 mt-4">I chose to create a Mood Board, a very helpful practice, especially for the re-branding face of the project. It stimulated my creativity and inspiration. It surfaced feelings that made ideation easier and helped me
+                  to improve information recall.</p>
+               <figure class="col-12 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/moodBoard.png" alt="Responsive image">
+                  <figcaption class="figure-caption text-right">Brand audit and other notes.</figcaption>
+               </figure>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">UI Design Audit</h5>
+               <p class="mb-4 mt-4">I performed a quick UI Design Audit to identify user interface problem areas for users in addition to the IA and interaction issues that my research revealed.</p>
+               <figure class="col-10 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Audit1.png" alt="Responsive image">
+                  <figcaption class="figure-caption text-right">Old Version's Home Page UI audit.</figcaption>
+               </figure>
+               <figure class="col-10 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Audit2.png" alt="Responsive image">
+                  <figcaption class="figure-caption text-right">Old Version's Collection Page UI audit.</figcaption>
+               </figure>
+               <figure class="col-10 "><img class="lazyload img-fluid " src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Audit3.png" alt="Responsive image">
+                  <figcaption class="figure-caption text-right">Old Veresion's About Page UI audit.</figcaption>
+               </figure>
+
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">New Logo</h5>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyNewLogo.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyNewLogoVar.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Color Palette</h5>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyPalette.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Typography</h5>
+               <p class="mb-4 mt-4"> I chose the famous and widely used sans-serif typeface, the Helvetica or Neue Haas Grotesk. Helvetica has great clarity, no intrinsic meaning in its form and it is a good choice for an accessible website such as a
+                  library.</p>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyTypography.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Buttons and Symbols</h5>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-6 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskySymbols.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-12 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyButtons.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Photography</h5>
+               <p class="mb-4 mt-4">Images are great ways to communicate ideas, concepts, and categories. When used with a text they are powerfully effective. Images should relate to the user and the label they represent. These are some of the photos
+                  the prototype uses.</p>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-12 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskyPhoto.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">The New Navigation</h5>
+               <p class="mb-4 mt-4">The following is the sitemap of the new navigation design with labeling, taxonomy, and classification adapted to the user’s needs. It illustrates where the high, medium, and low task priorities are accessed. How
+                  they related to each other, and how the content distributes within the site. I based my decisions on the research I conducted at the beginning of the re-design project. If interested, you can find it in the UX section of my
+                  portfolio.</p>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-12 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskySitemap.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Wireframe Quick Sketching</h5>
+               <p class="mb-4 mt-4">It is essential not to jump into the temptation of designing hi-fi wireframes before quick sketching and iterating some tentative options on paper. This step is fundamental to the design process.</p>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/wireframeketching.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Lo-Fi Wireframes</h5>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE1home.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE2helpchat.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE3freeprogclasses.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE4ebooksresources.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE5directions.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Sketch Prototype</h5>
+               <p class="mb-4 mt-4">Sketch allows me to create fast prototypes for iterative testing and feedback before jumping into coding and a live product.</p>
+               <div align="center" class="embed-responsive embed-responsive-16by9 mt-4">
+                  <video autoplay loop class="embed-responsive-item">
+                     <source src="images/UI/SANDUSKY_PROTOTYPE.mov" type="video/mp4">
+                  </video>
+               </div>
+               <h5 class="font-weight-normal text-dark display-5 mt-5 mb-4 text-uppercase">Considerations</h5>
+               <p class="mb-4 mt-4"><strong>Maintaining brand consistency</strong> was challenging but also an interesting test. A brand must build awareness and create trust and loyalty with users and customers. This is why standards
+                  for brand
+                  consistency are essential. Given the time and opportunity, I would deep into this section of the project.</p>
+               <p class="mb-4 mt-4"><strong>The Navigation Structure</strong> was an important block of work on this project. Finding the right organization and classification scheme highlighted the importance of knowing our users
+                  before
+                  making
+                  any pertinent decision. Anticipating what the user might do without proper research would be impossible and highly inaccurate.</p>
+
+               <!--DISCLOSURE
+               <p class="mb-4 mt-4">NOTE:This project's requirements were
+                  designed by <a href="https://www.kent.edu/iSchool/user-experience-design" target="_blank">Kent
+                     State
+                     University</a>, as part of the <a href="https://www.kent.edu/iSchool/ms-user-experience-design-curriculum" target="_blank">M.S.
+                     User Experience Design</a> degree, to
+                  demonstrate students' abilities and knowledge on Information Architecture (IA) and content management.</p>-->
+
+            </div>
+         </div>
+         <!---->
+
+         <!--SECTION UXSamples-->
+         <!--SANDUSKY PAGE UX - PART I-->
+         <div id="sanduskyPagePart1" class="container pb-3 pt-5 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-5 text-dark text-center p-2">Upper Sandusky Community Library Re-Design (Part 1)
+               <h4 class="font-weight-light pt-4">Content Audit, Information Architecture (IA), Research, Interaction.</h4>
+            </div>
+            <div class="col-12 p-4 text-left bg-white mb-4">
+               <h5 class="col-12 p-0 mb-3 mt-2 font-weight-normal text-dark text-uppercase">Introduction</h5>
+               <p class="mb-4">The Upper Sandusky Community Library re-design project was big. I divided the project into two parts. Part I is about the first stages of the UX re-design process, and Part 2 is the continuation (UID
+                  and re-Branding). If you are interested in exploring how I arrived to the first hi-fi prototype, I invite you to visit <a class="PartIILink" href="#">Part II</a> from the <strong><i>UID & Coding </i></strong>section of my portfolio.
+               </p>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Background</h5>
+               <p>The Upper Sandusky Community Library website had some practical and tested value. However, I
+                  suggested to redesign it from the ground up, to help people find objects and information in better ways, and incorporate thematic elements. The site was technologically outdated, had a confusing design with too many inconsistent
+                  elements. It should be easy to maintain, but it is not. This is important because of the lack of funding for it, and the small size of the staff to serve this purpose. Then, the goal of my design is to improve the overall
+                  website’s
+                  functionality.</p>
+               <p class="mb-4">A good information architecture (IA) design will offer the Upper Sandusky Community Library the opportunity to empower the site’s users by improving their ability to learn and make better decisions, from the site’s
+                  organization and
+                  content. Good usability depends heavily on effective IA. This concept guided me throughout the realization of this project.</p>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">About The Site’s Original State</h5>
+               <p class="mb-4">The site’s main navigation used a hierarchical structure. This kind of organization goes from broader categories of information to more specific ones. Within the body of the homepage, there was a matrix structure, where
+                  users were allowed to choose diverse paths. Most pages within the site used a matrix structure (image links, links within the text, etc).
+                  The home page’s main organization scheme was a subjective organization, organized by topic.</p>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Some Valuable Aspects of The Original Site</h5>
+               <ul>
+                  <li>The page’s top-down navigation allowed users to start with broader categories and later move deep down into the structure of the page to find my information if desired. As a consequence, the user could predict where to find
+                     information on the site.</li>
+                  <li>The option of using multiple navigation paths - when these are organized properly - can help the user access the information in diverse ways. It facilitates the user's chances to always reach it.</li>
+                  <li>A few pages — unfortunately not enough — used bottom-up navigation, enabling the user to rise to the surface while searching.</li>
+                  <li>The site used some supplemental browsing, this was positive because it involved accessing adjunct views of the site.</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">
+                  Suggested Improvements</h5>
+               <ul>
+                  <li>At all times, the user must know where she is, and how she got to the destination. This is a fundamental principle to guarantee easy and fluid navigation. If the user does not know where she is on the site, she cannot know where
+                     to go or where she came from. This could be highly confusing to the user.</li>
+                  <li>Some additional button-up navigation would enable the users to rise to the surface while searching.</li>
+                  <li>The site’s IA was improved by offering to the user diverse navigation options. This was achieved by using a variety of components (navigation systems, searching systems, labeling systems) and browsing aids.</li>
+                  <li>To meet a wider variety of needs, supplemental browsing using extra tools improved the site’s efficiency. These tools restructured the content, and content objects, into different guides that help the user find information
+                     allowing her to move from one place of interest to another within content elements.</li>
+                  <li>The embedded navigation is now more clear and organized. Thanks to the improvements, the users can have more control over the content. As it was, the navigation was often visually incoherent. At certain points, the design did
+                     not relate to other pages. This made the navigation confusing. For better comprehension and findability of the content, the site was ordered by visual and content categories.</li>
+                  <li>The site needed some essential tools, such as browsing aids. They allow users to better decide where to go. Users now know exactly what is available on the site to make these choices. Now, they can find the items with no effort.
+                  </li>
+                  <li>Usability depends on good organization. Elements (images, links, and menus) were not properly organized on the original site.</li>
+                  <li>The use of images is only recommended when the user can identify them, or when she is familiar with them. Otherwise, it could be confusing. I scanned the site for this kind of issue and found proper images for each case.</li>
+                  <li>The homepage needed to include a primary searching option at the top of the page.</li>
+                  <li>The pages needed to preserve the site’s graphic design style to avoid confusion, reduce cognitive effort, and easily create a mental model on how to navigate the page.</li>
+                  <li>Each page organization needed to be consistent with the other, as it is now.
+                  </li>
+                  <li>The pages needed a footer navigation.</li>
+                  <li>All content should fit in the page and avoid cut texts or images because it confuses the user
+                     to think she or he is missing information.</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Project Plan</h5>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Understanding The Users and The Context</h6>
+               <p class="mb-4">Before I started the project I worked on better understanding who the user was. This is fundamental to be able to group and label content in ways that would make sense to her or him. It is essential to improve access to
+                  information.</br></br>
+                  Understanding context is equally important to design an IA that would serve not only the people but the business as well. I achieved this through research and development of a shared vision of the project for the design
+                  team. </br></br>
+                  At this stage, the reasons for doing the project were clear. At this point, it should be an agreement among all team members and stakeholders. This is fundamental to measure the impact of any changes. To agree on when
+                  to finish the job, when success was achieved, and other similar issues of importance.</p>
+               <p>Timeline: 2 weeks.</p>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Content, Labeling & Taxonomy</h6>
+               <p class="mb-4">In this stage, we designed the new IA. We did this by communicating our design decisions using: Content analysis, Classification scheme, and Sitemaps.</p>
+               <p>Timeline: 1 week.</p>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Assessing Labeling and Taxonomy</h6>
+               <p class="mb-4">At this point in the process, we assessed the information architecture design decisions using a tool adequate to evaluate taxonomy and labeling (Treejack). This was a team that involved critique, motivated iteration and
+                  improved the work.</p>
+               <p>Timeline: 1 week.</p>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Finalization</h6>
+               <p class="mb-4">At this final stage, we iterated and finalize the work. We analyzed the results and improved the artifacts and design decisions as needed to improve the product to its maximum potential.</p>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/sandusky1_timeline.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h5 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Summary of the User Research</h5>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">The Interview</h6>
+               <h7 class="col-12 p-0 mb-3 mt-5 font-weight-bold text-dark">Research Design Goal</h7>
+               <p class="mb-4">The goal of this research is to gain insight into the user' - that individual who uses municipal libraries - behavior, motivations, interests, and decision making.
+                  With this purpose, two persons were interviewed at the Gwinnett County Public Library, located at 3480 Duluth Park Ln NW, Duluth, GA 30096. The persons interviewed provided useful information about the users.</p>
+               <h7 class="col-12 p-0 mb-3 mt-5 font-weight-bold text-dark">Research Design’s Procedure</h7>
+               <p>I performed two phone interviews:</p>
+               <ul>
+                  <li class="font-weight-bold text-dark">Who?</li>
+                  <p>Two librarians from the Gwinnett County Public Library.</p>
+                  <li class="font-weight-bold text-dark">How Long?</li>
+                  <p>10 to 20 minutes long each.</p>
+                  <li class="font-weight-bold text-dark">About?</li>
+                  <p>A set of twelve questions.</p>
+               </ul>
+               <h7 class="col-12 p-0 mb-3 mt-5 font-weight-bold text-dark">Questions:</h7>
+               <ol>
+                  <li>How would you define your site's primary user?</li>
+                  <li>How would you define your secondary most frequent user?</li>
+                  <li>What other users visit your site?</li>
+                  <li>What kind of information is the most frequently required by all your users?</li>
+                  <li>What kind of task or action is most often performed by the site’s users?</li>
+                  <li>What other popular actions users perform through your site?</li>
+                  <li>What are the most popular researched topics?</li>
+                  <li>Doesthedemandvarythroughtheyear?How?</li>
+                  <li>How does the user look for that kind of information?</li>
+                  <li>Why do they use the Gwinnett County Public Library’s website instead of going personally to the library’s site?</li>
+                  <li> What motivates people to use your library over the Northeast/Spruill Oaks Regional Library at Johns Creek?</li>
+                  <li>What are the most common complaints?</li>
+               </ol>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Literature Research</h6>
+               <h7 class="col-12 p-0 mb-3 mt-5 font-weight-bold text-dark">Findings</h7>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/sandusky1_UserNeeds.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <p>Source:
+                  <a href="https://www.kent.edu/iSchool/user-experience-design" target="_blank">Library Services in the Digital Age</a></p>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">More Findings</h7>
+               <p class="mt-3">User Needs:</p>
+               <ul>
+                  <li>People look for updated knowledge in their chosen profession.</li>
+                  <li>People look for information relating to better jobs.</li>
+                  <li>Students need information to do homework, pass exams, etc.</li>
+                  <li>People search for information to enrich themselves and be relevant to their society,
+                     career, organization etc.</li>
+                  <li>People seek information to learn about their government and country, government policies and plans. And they want to know how it affects them.</li>
+               </ul>
+               <p>Source:
+                  <a href="https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1566&context=libphilprac" target="_blank">The Anatomy of Library Users in the 21st Century</a></p>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">Additional Findings</h7>
+               <ul class="mt-3">
+                  <li>Individuals that are more likely to have visited and used library websites are: women, young
+                     adults, higher-educated adults, and parents.</li>
+                  <li>The household income is directly proportional to visiting frequency (bookmobile, website, or
+                     apps) percentage.</li>
+                  <li>People who think of themselves as lifelong learners are the most frequent users.</li>
+                  <li>People who think of themselves as liking to gather as much information as they can when
+                     they come across something they are not familiar with, and people that think of themselves
+                     as looking for new opportunities to grow as a person follow.</li>
+               </ul>
+               <p>Source:
+                  <a href="http://www.pewinternet.org/2016/04/07/library-users-and-learning/" target="_blank">Libraries and Learning</a></p>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">Results</h6>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">General Results:</h7>
+               <ul>
+                  <li>The use of website libraries is becoming more popular than visits to the library.</li>
+                  <li>E-books and digital audio, and career and job related subjects are the most popular.</li>
+                  <li>Learning new skills, ESOL and other language training, and online education
+                     resources are often consulted/requested.
+                  </li>
+                  <li>Older adults look for recreating activities and events that offer opportunities to
+                     socialize.</li>
+                  <li>More educated people tend to reach libraries more often than less educated people.</li>
+                  <li>Parents are popular library users.</li>
+                  <li>People that use libraries are more likely to be technologically literate.</li>
+                  <li>Library users see themselves are perpetual learners.</li>
+                  <li>Library website users are likely to:</li>
+                  <ul>
+                     <li>Learn to improve job skills</li>
+                     <li>Acquire further training</li>
+                     <li>Pursue a job promotion or a new job</li>
+                     <li>Update their skills</li>
+                  </ul>
+               </ul>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">Specific to Gwinnett County Public Library:</h7>
+               <ul>
+                  <il>Parents are frequent users. They look for information for their children (events, e- books and learning support) and themselves (job related training).</il>
+                  <il>Retired people look for entertaining events, and books.</il>
+                  <il>Other users vary.</il>
+                  <il>Many adults look for learning support and job related training.</il>
+                  <il>The Get Help feature highly used by diverse people.</il>
+                  <il>The Visit Us feature is very popular.</il>
+                  <il>School calendar relates to more demand of certain books and themes.</il>
+                  <il>In general, people are pleased with the site.</il>
+                  <il>Adults inquire about job related and skill training opportunities at the library or around
+                     the area.</il>
+               </ul>
+               <div class=" row">
+                  <div class="col"></div>
+                  <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/Sandusky_Results.png" alt="Responsive image">
+                  <div class="col"></div>
+               </div>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">Personas</h7>
+               <div class=" row">
+                  <div class="col-12 pt-1 pb-1">
+                     <img class="lazyload img-fluid mb-4 mt-4 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/persona1.jpg" alt="Responsive image">
+                  </div>
+               </div>
+               <div class=" row">
+                  <div class="col-12 pt-4 pb-4">
+                     <img class="lazyload img-fluid mb-4 mt-4 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/persona2.jpg" alt="Responsive image">
+                  </div>
+               </div>
+               <div class=" row">
+                  <div class="col-12 pt-4 pb-4">
+                     <img class="lazyload img-fluid mb-4 mt-4 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/persona3.jpg" alt="Responsive image">
+                  </div>
+               </div>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">The Tasks</h6>
+               <div class=" row">
+                  <div class="col-12 pt-4 pb-4">
+                     <img class="lazyload img-fluid mb-4 mt-4 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/sanduskyTasks.png" alt="Responsive image">
+                  </div>
+               </div>
+               <h6 class="col-12 p-0 mb-3 mt-5 font-weight-normal text-dark text-uppercase">The New Navigation Design</h6>
+               <h7 class="col-12 p-0 mb-4 mt-5 font-weight-bold text-dark">The Sitemap</h7>
+               <p class="mb-4">The following is the sitemap of the new navigation design with labeling, taxonomy, and classification adapted to the user’s needs. It illustrates where the high, medium, and low task priorities will be accessed from,
+                  how they related, and how the content is distributed within the site. My decisions have been based on the previously mentioned research and analysis of the results.</p>
+               <div class=" row">
+                  <div class="col-12 pt-4 pb-4">
+                     <img class="lazyload img-fluid mb-4 mt-4 border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/sanduskySitemap.png" alt="Responsive image">
+                  </div>
+               </div>
+               <h5 class="text-dark display-5 mt-5">The Navigation Structure</h5>
+               <h6 class="text-dark display-5 mt-5">Organization Scheme</h4>
+                  <p class="mb-4 mt-4">The main type of organization scheme for this website — within a hierarchic organization structure — is ambiguous. It is best for unknown-item searching when users don't know exactly what they are looking for.
+                  </p>
+                  <h6 class="text-dark display-5 mt-5">Clasification Scheme</h4>
+                     <p class="mb-4 mt-4">The main classification scheme is Topic. It organizes the content based on subject matter. It defines the "universe of content" that the users will expect to find within every area of the website.</p>
+                     <h6 class="text-dark display-5 mt-5">Other Clasification</h4>
+                        <p class="mb-4 mt-4">Audience is the other classification I selected. Given the different needs of the three main groups of the audience — per the data researched — I found appropriate to use this classification as well. This
+                           project's
+                           personas have different needs. It was important to address them by categories that represent them. This way, the user could explore the main general categories, or the group categories that they identify with (adults,
+                           teens, kids),
+                           when they feel that their needs are specific.</p>
+
+                        <h5 class="text-dark display-5 mt-5">Redundant Access Points</h5>
+                        <p class="mb-4 mt-4">The site’s content must be navigable and locatable onsite and offsite. With the purpose of anticipating what the users might do, based on my research, I ensured that the interface has elements that are
+                           easy to
+                           access from more than one point to facilitate those actions.</p>
+                        <h6 class="text-dark display-5 mt-5">Redundant access content:</h4>
+                           <ul>
+                              <li>AGE SPECIFIC: Given the fact that many of the library offerings are age specific, and each of our personas belongs to a particular age group and have different needs, some of the content was classified by age group.
+                                 For example:
+                                 adult, teens, kids, etc. Then, some of the content is available not only through the Main menu but also through the age specific section, allowing category boundaries to overlap. It will help the user to find content
+                                 in more than
+                                 one place depending of his or her navigation style or preference. These classification (Adults, Teens, Kids) is located on the left side navigation (secondary tasks), as illustrated on the sitemap.</li>
+                              <li>LOCATION AND OPEN HOURS: Given the relevance of this content, it will be accessed from several points within the site to assure the user will the information. The body of the Homepage, the Directions to Library
+                                 button, and the
+                                 About the Library button. I selected these points of entrance based on the user test analysis.</li>
+                              <li>SHARED NAVIGATION ACCESS: As the user moves from page to page’s content, certain elements will remind in place, such as the left side and main navigation, the search feature, signing and login buttons and the footer.
+                                 They will
+                                 continue displaying on each page as on their original (homepage’s) location. This will offer the user the option to change paths, or searching directions at any time, while being informed about the location where she
+                                 or he is.
+                              </li>
+                           </ul>
+                           <h5 class="text-dark display-5 mt-5">Wireframe Quick Sketching</h5>
+                           <p class="mb-4 mt-4">It is essential not to jump into the temptation of designing hi-fi wireframes before quick sketching and iterating some tentative options on paper. This step is fundamental to the design process.</p>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/wireframeketching.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <h5 class="text-dark display-5 mt-5">Lo-Fi Wireframes</h5>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE1home.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE2helpchat.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE3freeprogclasses.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE4ebooksresources.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <div class=" row">
+                              <div class="col"></div>
+                              <img class="lazyload col-10 img-fluid mb-4 mt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/WIRE5directions.png" alt="Responsive image">
+                              <div class="col"></div>
+                           </div>
+                           <h5 class="text-dark display-5 mt-3 mb-4">Final Notes</h5>
+                           <p class="mb-4 mt-4">Please note the next part of this project is the re-design of the User Interface (UI) and a brand new face. You'll find the Upper Sandusky Community
+                              Library Re-Design (Part 2) in the <strong><i>UI Design & Coding</i></strong> section of my portfolio. </p>
+                           <h5 class="text-dark display-5 mt-5 mb-4">Sketch Prototype</h5>
+                           <div align="center" class="embed-responsive embed-responsive-16by9 mt-4">
+                              <video autoplay loop class="embed-responsive-item">
+                                 <source src="images/UI/SANDUSKY_PROTOTYPE.mov" type="video/mp4">
+                              </video>
+                           </div>
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+         <!--LUNCH MONEY BUDDY-->
+         <div id="LunchMoneyBuddyPage" class="container pb-3 pt-3 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark text-center">Lunch
+               Money Buddy</div>
+            <h4 class="col-12 p-0 mb-3 font-weight-light text-uppercase text-center">Interaction Design</h5>
+               <div class="col-12 p-4 text-left bg-white mb-4">
+                  <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Introduction</h5>
+                  <p class="mb-4">For this project, I was challenged to design an
+                     app
+                     that would
+                     conveniently allow parents to order lunch for their
+                     children,
+                     online. Lunch Money Buddy is a virtual project. It was
+                     designed
+                     by <a href="https://www.kent.edu/iSchool/user-experience-design" target="_blank">Kent
+                        State
+                        University</a>, as part of the <a href="https://www.kent.edu/iSchool/ms-user-experience-design-curriculum" target="_blank">M.S.
+                        User Experience Design</a> capstone final project, to
+                     demonstrate
+                     students' UX skills, process development, interaction, and
+                     visual
+                     design abilities. </p>
+                  <h6 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Project Requirements:</h6>
+                  <ol class="mb-4">
+                     <li class="">Sign up for an account using an email and
+                        password.</li>
+                     <li class="">Fund the account to avoid children from
+                        bringing
+                        cash to the school.</li>
+                     <li class="">View account, and school menu by child.</li>
+                     <li class="">Favorite a lunch (and be alerted a night
+                        before
+                        about it.)</li>
+                     <li class="">Close the account at any time.</li>
+                  </ol>
+                  <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">The
+                     Process</h5>
+                  <h6 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Step 1:The Plan</h6>
+                  <p class="mb-4">To inform content organization, navigation and
+                     interaction, I
+                     created <a class="BehanceTooltip" data-toggle="tooltip" data-placement="bottom" title="This link will open in another window." href="https://s3.amazonaws.com/Adriana/ACerrotti_Journeys.pdf" target="_blank">two
+                        User Journeys</a> for each of the two personas
+                     based on
+                     the user model offered by the "client". I illustrated a
+                     range of
+                     possible situations and tasks. I chose to use storyboards
+                     because they
+                     served me in two important ways, to devise and sell my
+                     solution
+                     and because storyboards bring a vision to life that
+                     anybody can grasp and relate to. They also allow us to
+                     achieve
+                     those "Aha!" moments we expect team members an clients to
+                     experience.</p>
+                  <div class="row mb-4">
+                     <figure class="figure col-12 col-lg-6 mt-3 mb-3">
+                        <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/story01.jpg" alt="Responsive Image">
+                        <figcaption class="figure-caption text-right">User
+                           Journey.
+                           Opening an Account.
+                           Page 1</figcaption>
+                     </figure>
+                     </figure>
+                     <figure class="figure col-12 col-lg-6 mt-3 mb-3">
+                        <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/story02.jpg" alt="Responsive Image">
+                        <figcaption class="figure-caption text-right">User
+                           Journey.
+                           Opening an Account.
+                           Page 2</figcaption>
+                     </figure>
+                  </div>
+                  <h6 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Step 2:<br />Content
+                     Structure</h6>
+                  <p class="mb-4">Once I defined my user's modalities interacting
+                     with
+                     the device, I proceeded to diagram the most appropriate
+                     content
+                     structure for the app. I quickly ideated some alternative
+                     structures to organize the app through sketching, and then
+                     I
+                     crafted a clean flow chart and a sitemap.</p>
+                  <figure class="figure col-12 mb-3">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/LMBWire.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Lunch Money
+                        Buddy Workflow
+                        Page 2</figcaption>
+                  </figure>
+                  <figure class="figure col-12 mb-3 d-none d-sm-block">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/LMBSiteMap.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Lunch Money
+                        Buddy Sitemap
+                        Page 2</figcaption>
+                  </figure>
+
+                  <p class="mb-4">
+                     <h6 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Step 3:<br />Comprehensive
+                        Wireframe</h6>
+                     Once I defined an alternative design for the
+                     content
+                     organization, the time came to create a complete content
+                     wireframe for the app. I designed a Comprehensive Wireframe
+                     to
+                     reveal content placement and user flow. I documented it.
+                     Since
+                     this would not be the final diagram of the user interface,
+                     but a
+                     means to exercise and explore content organization,
+                     hierarchy,
+                     and user flow, it was crucial at this stage to work using
+                     sketching techniques. They offer the advantage of working
+                     fast
+                     but in an organized and clear way, simple enough to request
+                     peer
+                     feedback avoiding meaningless distractions.
+                  </p>
+                  <p>Check the<a class="BehanceTooltip" data-toggle="tooltip" data-placement="bottom" title="This link will take you out of this site." href="https://s3.amazonaws.com/Adriana/WireframesLMB.pdf" target="_blank">
+                        Comprehensive Wireframe and Prototype.</a></p>
+
+                  <figure class="figure col-12 mb-3 text-center">
+                     <img class="lazyload LMBVertical figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/LMBCompWire1.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Balsamic
+                        Wireframe
+                        Sketch. Vertical Orientation.</figcaption>
+                  </figure>
+
+                  <figure class="figure col-12 mb-3 mt-3 d-none d-sm-block">
+                     <img class="lazyload figure-img img-fluid rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/LMBCompWire2.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right">Balsamic
+                        Wireframe
+                        Sketch. Horizontal Orientation</figcaption>
+                  </figure>
+
+                  <div class="row mb-4">
+                     <div>
+                        <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase m-4">Using
+                           Web-based
+                           Balsamiq Tool</h5>
+                     </div>
+                     <div class="border rounded col-12 embed-responsive embed-responsive-16by9 d-none d-sm-block">
+                        <iframe src="images/UX/LMB00.m4v" allowfullscreen class="embed-content mb-4"></iframe>
+                     </div>
+                     <p class="mb-4 pr-4 pl-4 pt-5">Several patterns and standards
+                        influenced
+                        my
+                        design and guided me through the process of designing
+                        this
+                        app. I challenged myself to think critically about the
+                        UI
+                        scheme, giving priority to aspects of the app that I
+                        considered more relevant. Usability and learnability
+                        played
+                        a central role. </p>
+                     <p class="mb-4 pr-4 pl-4">For in-depth and detailed
+                        documentation
+                        about what models influenced my prototype, and why I
+                        made
+                        the design choices I chose to make, please check my
+                        <a class="BehanceTooltip" data-toggle="tooltip" data-placement="bottom" title="This link will open in another window." href="https://s3.amazonaws.com/Adriana/ACerrotti_Prototype.pdf" target="_blank">LMB
+                           Process Document</a>.</p>
+                  </div>
+
+                  <figure class="col-12 figure text-center">
+                     <img class="lazyload LunchScheduler figure-img img-fluid rounded border" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/highFidWireframe.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-center">Balsamic
+                        Wireframe
+                        Sketch. Vertical Orientation
+                     </figcaption>
+
+               </div>
+               <div class="m-4">
+                  <p class="text-left pr-4 pl-4 m-3">
+                     <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">The
+                        Results</h5>
+                     Up to this point, for the design of
+                     the
+                     app, I
+                     collected significant amounts of valuable information. However,
+                     the application is not ready to be coded yet. Before that, I
+                     will need to identify potential problems. Important questions
+                     that I have to answer before continuing with the design process
+                     are:
+                  </p>
+                  <ol class="text-left pr-4 pl-4">
+                     <li>Is my user able to accomplish the specified tasks
+                        successfully? </li>
+                     <li>Is the time required to accomplish the tasks acceptable to
+                        my user? </li>
+                     <li>Is my users satisfied with the experience? Otherwise, what
+                        specific changes will I need to make in order to improve
+                        the user experience? </li>
+                  </ol>
+               </div>
+               <p class="mb-3 text-left pr-4 pl-4">To find the answers to these
+                  questions
+                  I
+                  need a
+                  medium to high fidelity prototype to test my application.</p>
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase p-4">Testing
+                  the
+                  App</h5>
+               <div class="row mb-4">
+                  <div class="border rounded col-sm-12 embed-responsive embed-responsive-16by9">
+                     <iframe src="https://www.ccv.adobe.com/v1/player/ccv/3o6bAEcNfCs/embed?bgcolor=%23191919&lazyLoading=true" allowfullscreen class="embed-content mb-4"></iframe>
+                  </div>
+               </div>
+               <p class="mb-2 text-left p-4">Up to this point, for the design of the
+                  app,
+                  I
+                  collected significant amounts of valuable information. However,
+                  the application is not ready to be coded yet. Before that, I
+                  will need to identify potential problems. Important questions
+                  that I have to answer before continuing with the design process
+                  are:
+               </p>
+               <div class="p-4">
+                  <h5 class="col-12 p-0 mb-3 font-weight-normal text-dark text-uppercase">Lessons
+                     Learned</h5>
+                  <ul class="text-left p-4">
+                     <li>Iteration and validation. The time invested in iteration and
+                        validation is inversely proportional to the chances of
+                        designing an unsuccessful coded product. We should be able
+                        to go back to our design over and over again, always with
+                        fresh eyes.</li>
+                     <li>The first versions should be minimal, and very sketched.
+                        This kind of presentation is very inviting to feedback. It
+                        allows fast fluent work. It is less susceptible to changes.
+                        It is essential to keep the design process rolling.</li>
+                     <li>Course-redirection. Designers should be ready and
+                        comfortable with course-redirection. They should help
+                        clients and peers to be familiar with a design process that
+                        is “organic" and welcomes "error."</li>
+                     <li>Labels and buttons should have broadly clear and familiar
+                        names. Labels that are obvious to us, as designers or
+                        developers, might not be as evident to the user. We should
+                        avoid assumptions, invest time and carefully look for the
+                        precise label to each task we want the user to perform. We
+                        should find the right name for each section we want our
+                        user to find and enter.</li>
+                  </ul>
+                  <h5 class="col-12 mb-1 mt-3 font-weight-normal text-uppercase text-left text-dark">Applications
+                     Used
+                     to Design this App</h2>
+                     <ul class="text-left p-4">
+                        <li>Photoshop</li>
+                        <li>Lucidchart</li>
+                        <li>Balsamic</li>
+                        <li>Proto.io</li>
+                     </ul>
+               </div>
+         </div>
+
+         <!--REMINDER X-->
+         <div id="ReminderXPage" class="container p-4 text-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark text-center">Reminder X</div>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Introduction</h5>
+            <p class="mb-4">Reminder X, a startup software company, requested to
+               design a reminder app for iPhone and Android phones. Vera, the
+               company's co-founder, product manager, marketing leader and my
+               main
+               point of contact presented the challenge. She and her co-founder
+               Jorge, who handles engineering, know that they would like the
+               app to
+               be more than a generic to-do list and reminder app. Vera came to
+               me
+               with a blank slate not knowing what the user target was, what
+               kind of
+               problems she will face, and what the solutions to those problems
+               will
+               be. To address my client's concerns and move the project
+               forward, I
+               followed these steps:</p>
+            <p class="mb-4 mt-4">Please note, this project's requirements were
+               designed by <a href="https://www.kent.edu/iSchool/user-experience-design" target="_blank">Kent
+                  State
+                  University</a>, as part of the <a href="https://www.kent.edu/iSchool/ms-user-experience-design-curriculum" target="_blank">M.S.
+                  User Experience Design</a> capstone final project, to
+               demonstrate students' abilities and knowledge on usability
+               testing.</p>
+            <ol class="mb-4">
+               <li>I presented a project proposal with a plan: research,
+                  design,
+                  test, iterate.</li>
+               <li>I created a persona based on my research to define the
+                  design
+                  principles accordingly.</li>
+               <li>I created visual representations to communicate the user's
+                  journey. </li>
+               <li>I designed ReminderX based on the defined principles.</li>
+               <li>I designed a user test and tested the product with selected
+                  participants. </li>
+               <li>I iterated the design following the test results.</li>
+            </ol>
+            <p class="mb-4">Upon approval of the <a href="https://s3.amazonaws.com/Adriana/ACerrotti_Proposal.pdf" target="_blank">project
+                  proposal</a>, I created a target user
+               persona. Later I
+               defined the appropriated app design principles based on the
+               specified
+               information.</p>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">The
+               User</h5>
+            <div class="row mb-4 m-4">
+               <figure class="lazyload figure col-12 col-lg-6 mt-3 mb-4">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderPersona.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right">Persona:
+                     Steve.
+                  </figcaption>
+               </figure>
+               <figure class="figure col-12 col-lg-6 mt-3 mb-4">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderXStory.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right">Steve's quick
+                     rough of his life style story.</figcaption>
+               </figure>
+            </div>
+            <p class="mb-4 mt-4">Within UX/UI predominantly agile
+               environments, we
+               need tools that
+               allow for fast, efficient collaboration. Sketching is one of
+               them</p>
+            <blockquote class="blockquote text-dark border m-4 p-4">
+               <p class="mb-0"><i>Stories are the most powerful delivery tool for
+                     information, more powerful and enduring than any other art
+                     form.</i></p>
+               <footer class="blockquote-footer">Nancy Duarte</footer>
+            </blockquote>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">User
+               Research</h5>
+            <p class="mb-4">
+               After defining the design principles and features based on the
+               persona's requirements, I worked on the design process. I
+               created several visual representations (flowcharts, wireflows,
+               and other roughs.) to communicate the user's journey. This kind
+               of material is ideal for critiquing, iterating, and improving
+               the design. I synthesized the user research and proceeded to
+               design the app, and <a href="https://s3.amazonaws.com/Adriana/AdrianaCerrotti_UserJourneys.pdf" target="_blank">documenting
+                  my UX work </a>for the stakeholders.</p>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Visual
+               Representations</h5>
+            <div class="row mb-4 m-4">
+               <figure class="figure col-12 col-lg-6 mt-3 mb-4 p-4" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded p-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderRoughs1.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-4">Reminder
+                     X
+                     wireframes and flowcharts.
+                  </figcaption>
+               </figure>
+               <figure class="figure col-12 col-lg-6 mt-3 mb-4 p-4" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderRoughs2.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right">Step by step
+                     wireframe representation within the system's flow.</figcaption>
+               </figure>
+            </div>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Usability
+               Testing</h5>
+            <p class="mb-4 mt-4">Then it was time to evaluate the design. I
+               created a <a href="https://s3.amazonaws.com/Adriana/ACerrotti_AssessmentMaterials.pdf" target="_blank">usability
+                  testing plan</a> to achieve this goal. Participants tested
+               the app
+               using paper kits to interact with the product. The individuals
+               were exposed to scenarios created to monitor the app's
+               performance to detect issues that might need a re-design before
+               going into development.</p>
+
+            <div class="row mb-4 m-4">
+               <figure class="figure col-sm-12 col-md-4 mt-3 mb-4" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded p-2 pb-4 pt-4" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderTesting1.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right">Sketch of the
+                     first
+                     screen.
+                  </figcaption>
+               </figure>
+               <figure class="figure col-sm-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/ReminderTesting2.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-4">Testing
+                     kit.</figcaption>
+               </figure>
+            </div>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Assessment
+               Report and Results</h5>
+            <p class="mb-4">Next, I designed an <a href="https://s3.amazonaws.com/Adriana/ACerrotti_DesignAssessmentReport.pdf" target="_blank">assessment
+                  report</a> pointing out the
+               design
+               priorities met, design problems, potential unidentified
+               variables,
+               issues with the methodology, and design suggestions. Later on, I
+               would communicate this information to the clients, developers,
+               and
+               other stakeholders. Iteration was, and always is, part of the
+               design
+               process.</p>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Testing
+               Flow and Functionality</h5>
+            <p class="mb-4">This is a simulation of the application's
+               functionality.
+               It is not the
+               final product, but a tool to demonstrate its flow and
+               consistency.</p>
+
+            <div class="row mb-4">
+               <div class="col-md-2 center"></div>
+               <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+                  <iframe src="https://www.ccv.adobe.com/v1/player/ccv/6pp4ni_YKqD/embed?bgcolor=%23191919&lazyLoading=true" allowfullscreen class="embed-content"></iframe>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+            <p class="mb-4 mt-4">I concluded with a design that satisfied the
+               client's
+               requirements and the user's needs open to further revisions.</p>
+            <blockquote class="blockquote text-dark border m-4 p-4">
+               <p class="mb-0"><i>“For the things we have to learn before we can
+                     do
+                     them, we learn by doing them.” </i></p>
+               <footer class="blockquote-footer">Aristotle</footer>
+            </blockquote>
+            <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark">Things
+               I learned</h5>
+            <p class="mb-4 mt-4"><strong>UX designers</strong> should focus on
+               what
+               users need rather than what users want. Often these two concepts
+               are
+               not in agreement. However, users always respond positively to
+               good
+               solutions. The solutions that met their needs, and the ones they
+               had
+               not identified.</p>
+            <p class="mb-4 mt-4"><strong>Esthetics and simplicity</strong> should
+               not
+               be competing forces within any design project. Excellent user
+               experience should be the leading factor in the design process.
+               Users
+               will fall in love with functionality, but beauty will only daze
+               them
+               momentarily. Esthetics should be at the service of
+               functionality.</p>
+            <p class="mb-4 mt-4"><strong>Research results</strong> and user
+               testing
+               from numerous samples is useful to identify major consumer
+               annoyances
+               and failures in the product acceptability, as other variables
+               that
+               might become evident as the product becomes familiar to the
+               consumer.
+               However, research results from small samples are extremely
+               valuable
+               most particularly at its early stages.</p>
+            <p class="mb-4 mt-4"><strong>Iteration</strong> is a vital
+               component of User Centered Design. A final product is provisory.</p>
+
+         </div>
+         <!---->
+
+         <!--PAPA USABILITY TEST REPORT-->
+         <div id="PapaJohnsPage" class="container p-4 text-left section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark text-center">PAPA
+               JOHNS
+               USABILITY TEST</div>
+            <h4 class="col-12 p-0 mb-4 font-weight-light text-center text-uppercase">(Ordering
+               Online)</h5>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Introduction</h5>
+
+               <p class="mb-4 mt-4">This is a usability test report on the ability
+                  of
+                  Papa Johns Pizza's website to deliver the best user experience
+                  to its
+                  clients. The goal of this test is to explore the usefulness of
+                  the
+                  site's navigation and overall performance.</p>
+               <p class="mb-4 mt-4">Papa John's Pizza is an American restaurant
+                  company
+                  with a headquarters in Jeffersontown, Kentucky. It is the third
+                  largest delivery restaurant of take-out and pizza food in the
+                  entire
+                  world. Besides the traditional take-out options, Papa Johns’
+                  Pizza
+                  offers to clients the opportunity to order pizza online, through
+                  the
+                  company’s website.</p>
+               <p class="mb-4 mt-4">
+                  The company needs to know if the website is usable enough to
+                  thrive
+                  in the market. To achieve this, they need to evaluate the site
+                  once
+                  more to detect potential flows. A usability test will determine
+                  if
+                  the website interface is efficient. The goal is for users to
+                  order
+                  pizza and complete specified routine tasks that are important to
+                  the
+                  company, in a satisfactory way.</p>
+               <p class="mb-4 mt-4">Please note, this project's requirements were
+                  designed by <a href="https://www.kent.edu/iSchool/user-experience-design" target="_blank">Kent
+                     State
+                     University</a>, as part of the <a href="https://www.kent.edu/iSchool/ms-user-experience-design-curriculum" target="_blank">M.S.
+                     User Experience Design</a> capstone final project, to
+                  demonstrate students' abilities and knowledge on usability
+                  testing.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Document
+                  content</h5>
+               <p class="mb-4 mt-4">This document contains information about the
+                  participant’s feedback
+                  provided when they performed the assigned tasks, comments about
+                  the
+                  overall user experience, and recommendations for improvement. It
+                  also
+                  includes a copy of the scenarios and questions provided.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Executive
+                  Summary</h5>
+               <p class="mb-4 mt-4">Papa Johns is interested in optimizing the
+                  product.
+                  The company is looking for flaws that might interfere with the
+                  proper
+                  functioning of the website. The test performed provides insight
+                  into
+                  the user's experiences while interacting with the product.
+                  <strong>Papa
+                     John’s usability professionals conducted the test.</strong></p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Overall
+                  Characteristics of the test and users:</h5>
+               <p class="mb-4 mt-4">Three participants were selected using a
+                  screener
+                  test to isolate the segment of the population with the
+                  demographic
+                  characteristics of interest in the study.
+                  The participants were asked to perform three specific tasks
+                  navigating the website using a computer.
+                  As participants performed the tasks, the professional testers
+                  observed them, took notes, and interacted with them only when it
+                  was
+                  appropriate.
+                  The testers followed precise protocols about the degree of
+                  verbal
+                  intervention they would use, ethical behavior, and other
+                  strategies
+                  known as the Golden Rules of Moderating.
+                  A screen capture software, Screencast-o-Matic, was used to
+                  record the
+                  participant’s navigational choices and record his or her
+                  gestures,
+                  voice, comments, questions and overall reactions.
+                  The tests were performed in the last week of September 2016, in
+                  the
+                  company’s testing room.
+                  All participants ordered a pizza online before, but not
+                  specifically
+                  from Papa John’s Pizza.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Overview
+                  of the Results</h5>
+               <ul class="mb-4 mt-4">
+                  <li>Two out of three of the participants had some level of
+                     confusion,
+                     at some point, when ordering a pizza.</li>
+                  <li>All participants preferred making complaints through human
+                     customer service rather than filling forms or writing
+                     emails.</li>
+                  <li>Two of the participants, numbers 2 and 3, had trouble
+                     signing up
+                     for coupons without registering.</li>
+                  <li>The half pizza icon was not intuitive for any of the
+                     participants.</li>
+                  <li>Three participants were pleasantly surprised about the level
+                     of
+                     customization.</li>
+                  <li>Two of the participants, numbers 1 and 2, were positively
+                     impressed by the “adding a topping” animation.</li>
+                  <li>Two of the participants, numbers 1 and 2, were overall happy
+                     with
+                     the website experience.</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Methodology</h5>
+               <p class="mb-4 mt-4">The test administrator contacted potential
+                  participants. A screening instrument was designed to isolate the
+                  segment of the population that we needed to test for usability.
+                  Three
+                  participants were selected for the usability test.
+                  Once the participants were selected, the test administrator
+                  contacted
+                  the attendees by emailing them, to inform them of the test
+                  planning
+                  and confirming their availability and participation. At that
+                  point,
+                  dates and times for the test were arranged.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Test
+                  steps</h5>
+               <p class="mb-4 mt-4">Before the session started, the test
+                  administrator
+                  explained the session organization and planning to the
+                  participant.
+                  At this stage, the test manager used his or her skills to assure
+                  the
+                  participant felt comfortable, appreciated, and easy.
+                  The test administrator explained to the participant that he was
+                  not
+                  the object of analysis, but the product, assuring the user felt
+                  free
+                  to make mistakes.
+                  The test administrator invited the participant to be as
+                  expressive
+                  and talkative as possible about every step he or she took. He
+                  was
+                  asked to express every thought that came to his or her mind
+                  while
+                  using the product, and every feeling he or she associated with
+                  the
+                  product and the experience.
+                  At this point, the test administrator will ask for the
+                  participant
+                  consent to be observed and recorded.
+                  Before asking the participant to enter the tasks, the test
+                  administrator asked him or her some questions that have the
+                  intention
+                  to get familiar with the participants and explore the user
+                  overall
+                  purchasing preferences related to our product.
+                  Then, the participant was invited to use Google to browse for
+                  any
+                  pizza places close to his or her area code, to break the ice
+                  before
+                  starting to work with the intended Papa John’s Pizza website and
+                  submerge the user into the tasks.
+                  The test lasted between 40 and 60 minutes, depending on the need
+                  and
+                  willingness of each participant motivation, style, ability and
+                  willingness to participate and express his or her feelings and
+                  ideas
+                  about the website performance and user experience.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">The
+                  tasks</h5>
+               <p class="mb-4 mt-4">The test consisted of three tasks designed to
+                  make
+                  the user navigate certain features of the product with the
+                  purpose of
+                  observing how fluently the participant could follow each path.</p>
+               <strong class="mb-4 mt-4 text-uppercase">The Tasks:</strong>
+               <ol class="mb-4 mt-4">
+                  <li> Ordering Pizza.</li>
+                  <li>Signing up for deals and coupons without registering.</li>
+                  <li>Contacting the corporate office.</li>
+               </ol>
+               <strong class="mb-4 mt-4 text-uppercase">The scenarios:</strong>
+               <p class="mb-4 mt-4">For the participants to engage with the tasks,
+                  the
+                  test provided an imaginary scenario for each task.</p>
+               <strong class="mb-4 mt-4">Task 1 scenario:</strong>
+               <p class="mb-4 mt-4">Imagine that the people you are with are fans of
+                  Papa
+                  John’s Pizza and that is where you will be ordering the pizza.
+                  There
+                  are a bunch of people at this party, and you need to order 3
+                  pizzas.
+                  Mushroom and Pepperoni.
+                  Half onion and half sausage with the light sauce.
+                  A specialty pizza (you want some variety).</p>
+               <strong class="mb-4 mt-4">Task 2 scenario:</strong>
+               <p class="mb-4 mt-4">You want to sign up for deals and coupons, but
+                  you
+                  don’t want to register. You just want to give them your email.
+                  Can
+                  you do this and what do you think you will receive by email?</p>
+               <strong class="mb-4 mt-4">Task 3 scenario:</strong>
+               <p class="mb-5 mt-4">
+                  Your pizza arrives and it is terrible! Your driver was rude and
+                  you
+                  are really upset about what just happened. You call the local
+                  store,
+                  but you get nowhere. You need to contact the corporate office;
+                  how
+                  would you do that?
+                  At the end and in between each task was performed, the test
+                  administrator invited each participant to express his or her
+                  feelings
+                  about the navigation experience. When the test was finalized and
+                  the
+                  participant had nothing else to add, he or she was greeted and
+                  thanked for her collaboration.
+               </p>
+               <h5 class="col-12 p-0 mt-5 font-weight-normal text-dark text-center text-uppercase">The
+                  Participants</h5>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class="figure col-12 col-md-8 mt-0 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJParticipants.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4"></figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Synopsis
+                  of Findings</h5>
+               <p class="mb-4 mt-4">All the participants, 1, 2, and 3, completed all
+                  the
+                  tasks required, with differences between them at the level of
+                  performance, discomfort, and easiness. Only one user’s overall
+                  satisfaction was negative. The other participants, in distinct
+                  ways,
+                  expressed appreciation navigating the product.</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Analysis
+                  of Tasks</h5>
+               <p class="mb-4 mt-4 d-none d-sm-block">The following is a list of the
+                  navigation steps each
+                  participant took while performing each task. </p>
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="figure col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJAnalysis.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4"></figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Top
+                  highlights about the findings</h5>
+               <p class="mb-4 mt-4">In general, participants were very pleased with
+                  some
+                  of the web site features. These are some of the highlights.</p>
+               <strong class="mb-4 mt-4">Positive highlights about the ordering
+                  features</strong>
+               <strong class="mb-4 mt-4 text-uppercase">The animation feature</strong>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class=" col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJAWoman2.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        2
+                        pleased with the animation feature when customizing
+                        the
+                        pizza.</figcaption>
+                  </figure>
+                  <div class="col-sm-2"></div>
+               </div>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“Oh, I like how it's baking for me!” </i></p>
+                  <footer class="blockquote-footer">Participant 2</footer>
+               </blockquote>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“It's giving me more choices than I usually
+                        get!” </i></p>
+                  <footer class="blockquote-footer">Participant 2</footer>
+               </blockquote>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“I kind of like the graphic here. It gives me
+                        the
+                        idea that I can customize it (the pizza).” </i></p>
+                  <footer class="blockquote-footer">Participant 2</footer>
+               </blockquote>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="images/UX/PapaJMan.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        3
+                        about to customize the pizza.</figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“It looks good!” </i></p>
+                  <footer class="blockquote-footer">Participant 3</footer>
+               </blockquote>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJBoy.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        1
+                        customizing the pizza.</figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“That's very simple!” </i></p>
+                  <footer class="blockquote-footer">Participant 1</footer>
+               </blockquote>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Comments
+                  about the half and half customization</h5>
+               <strong class="mb-4 mt-4 text-uppercase">The half Pizza icon</strong>
+               <div class="row">
+                  <div class="col-md-2 d-none d-sm-block"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4 d-none d-sm-block" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJBoy1.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        1
+                        customizing a half and half pizza.</figcaption>
+                  </figure>
+                  <div class="col-md-2 d-none d-sm-block"></div>
+               </div>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“That icon could be bigger.” </i></p>
+                  <footer class="blockquote-footer">Participant 1</footer>
+               </blockquote>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJAWoman3.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        1
+                        customizing a half and half pizza.</figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <blockquote class="blockquote text-dark border m-4 p-4">
+                  <p class="mb-0"><i>“Oh! That's the half of the pizza (icon).” </i></p>
+                  <footer class="blockquote-footer">Participant 1</footer>
+               </blockquote>
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJMan2.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-4">Participant
+                        3
+                        customizing a half and half pizza.</figcaption>
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h5 class="col-12 p-0 mt-5 mb-4 font-weight-normal text-dark text-center text-uppercase">Negative
+                  Feedback</h5>
+               <p class="mb-4 mt-4">Participant 3 had a negative perception of the
+                  company. He had an unpleasant experience throughout the whole
+                  test.
+                  Specifically, on task 3, when he was asked to imagine a
+                  frustrating
+                  delivery experience, he said: “That’s what I would expect of
+                  Papa
+                  John’s”</p>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Additional
+                  comments</h5>
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">User
+                  comments
+                  about ordering
+                  pizza online</h6>
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJComments.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Remarks
+                  about
+                  the participants</h6>
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJRemarcs.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Participant
+                  pizza most common
+                  ordering habits </h6>
+
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJHabits.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">User
+                  feedback
+                  about
+                  papa john’s
+                  pizza web site features</h6>
+
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJFeatures.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">finding
+                  papa
+                  John’s
+                  pizza coupons
+                  within the site</h6>
+
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJCoupons.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">contacting
+                  papa
+                  John’s
+                  corporate
+                  office</h6>
+               <div class="row d-none d-sm-block">
+                  <div class="col-md-2"></div>
+                  <figure class="col-12 col-md-8 mt-3 mb-4 p-4" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/PapaJContact.png" alt="Responsive Image">
+                  </figure>
+                  <div class="col-md-2"></div>
+               </div>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Recommendations</h5>
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">The following are recommendations
+                  based on the
+                  observation and analysis of the test results:</h6>
+               <ul class="mb-4 mt-4">
+                  <li class="mb-4 mt-4">Since all the participants expressed,
+                     to
+                     one degree or another, some concern about the size and
+                     design of
+                     the
+                     half pizza graphic. I would recommend redesigning the
+                     graphic to
+                     make
+                     it clearer, perhaps bigger and more intuitive, and
+                     later test it
+                     for
+                     usability again</li>
+                  <li>Participant three tested using a Papa John’s site where
+                     a user
+                     had already subscribed. Then, the Start Order was not
+                     available
+                     for the participant, but instead the Delivery To
+                     user’s address
+                     button. This user was the one out of the three
+                     participants to
+                     struggle to place the very first order. I recommend
+                     redesigning
+                     this Delivery To button, and to include the words
+                     Start Order on
+                     it. This might prevent users that are using someone
+                     else’s site
+                     to place an order to get frustrated and change the
+                     provider
+                     because, as our participant, they don’t find a place
+                     where to
+                     order within the site fast enough. After changes are
+                     in place,
+                     test for usability again.</li>
+                  <li>Participants hesitated about how to add the second
+                     pizza to the
+                     order. I recommend offering an Add another pizza
+                     button, or
+                     similar after the first pizza order was placed. This
+                     will speed
+                     the process. After clicking it, this button should
+                     give users
+                     the option of customizing it or picking one from any
+                     of the
+                     available already designed pizza offerings. After
+                     iteration,
+                     test for usability again.</li>
+                  <li>Since all the participants at one point questioned
+                     themselves if
+                     creating an account would be a requirement to place an
+                     order. I
+                     would recommend testing the site offering the SIGN IN
+                     or Create
+                     an account button/option at the end of the purchase
+                     instead of
+                     at the very beginning. This might completely avoid any
+                     chance of
+                     users abandoning the site believing that’s the only
+                     option, as
+                     our participant 3 experienced it at one point. Placing
+                     an order
+                     as a guess would also work.</li>
+                  <li>Since there was no consistency in the way participants
+                     found
+                     coupons, the navigational feature should be revised.
+                     Perhaps a
+                     Find Coupon button will be more effective. It could
+                     lead to a
+                     Rewards enrollment simultaneously.</li>
+                  <li>When analyzing the results of this test, some
+                     considerations
+                     about the participant number three need to be
+                     highlighted.
+                     First, since he started the test, the participant
+                     number three
+                     was not comfortable with the testing equipment. This
+                     could have
+                     interfered with the participant’s performance. Second,
+                     he
+                     apparently had a deep rooted negative perception of
+                     the company.</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Follow-up
+                  research questions</h5>
+               <h6 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">The following is a suggestion for
+                  further
+                  research based on the observations and analysis of the test
+                  results:</h6>
+               <ul class="mb-4 mt-4">
+                  <li>Given the fact that two of the participants avoided
+                     cheese, and
+                     one of them identified herself as a vegan. It would be
+                     pertinent
+                     to research the potential Papa John’s vegan – as other
+                     special
+                     diets - target market, and the possibility of
+                     addressing them in
+                     a more direct and personalized manner.</li>
+                  <li>Given the clear negative perception the third
+                     participant had
+                     about Papa John’s Pizza, it would be wise to research
+                     any
+                     possible deep rooted users’ negative perception about
+                     the
+                     company.</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-4 font-weight-normal text-dark text-center text-uppercase">Conclusion</h5>
+               <p class="mb-4 mt-4">Two of our participants navigated the site
+                  with no
+                  major trouble. The third participant had several issues
+                  navigating
+                  the site. In general, all participants, to one degree or
+                  another,
+                  were positively impressed and satisfied with the
+                  customization
+                  features.</p>
+         </div>
+         <!---->
+
+         <!--Beautiful Inside and Out!-->
+         <div id="BeautifulPage" class="container pb-3 pt-3 text-center text-md-left text-lg-center section" style="background-color: white;">
+            <div class="col-12 p-0 display-4 mb-3 text-dark text-center mt-4">Beautiful Inside and
+               Out!</div>
+            <h4 class="col-12 p-0 mb-4 font-weight-light text-dark text-center text-uppercase">A
+               User-Centered Redesign Project</h4>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Introduction</h2>
+                  <p class="mb-4 mt-4">Before finishing my Kent State MS degree, I
+                     created a series of children books. My goal was to use the
+                     knowledge of developmental psychology I had acquired from
+                     my
+                     Penn State BA degree while putting in practice my
+                     illustration
+                     skills. As expected, I became critical of my work as my
+                     knowledge in user-centered design increased. That is when I
+                     decided to go back to the app I had created based on one of
+                     those books, to re-design its interface based on the needs
+                     of my
+                     users. Given the constraints of my financial and time
+                     resources,
+                     the re-design project went through only one round of
+                     iteration.
+                     However, I was happy with the results. Then, the material
+                     serves
+                     the purpose of illustrating my approach to design.</p>
+                  <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Background</h5>
+                  <p class="mb-4 mt-4">I designed and developed the app for
+                     children
+                     called
+                     Beautiful Inside
+                     and Out!, based on one of my children's books: <a href="https://www.barnesandnoble.com/w/beautiful-inside-and-out-adriana-cerrotti/1111765777?type=eBook" target="_blank">Beautiful!!!
+                        Inside
+                        and Out (BI & Out)</a>. The targeted
+                     audience was
+                     small
+                     children between the ages of 3 and 5.</p>
+            </div>
+            <div class="col-12 p-4 text-justify bg-white">
+               <div class="row h-100 align-items-center">
+                  <figure class="figure col-12 col-md-6 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulCover.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Beautiful!!!
+                        Inside and Out, the book.</figcaption>
+                  </figure>
+                  <figure class="lazyload figure col-12 col-md-6 mt-3 mb-4 pt-4 pb-4 h-100 align-items-center text-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded w-75" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulCharacter.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right pt-4">Sly,
+                        the
+                        main character of the book and app.</figcaption>
+                  </figure>
+               </div>
+               <p class="mb-4 mt-4">The main goal of this application
+                  was entertaining and
+                  educating. The design made an emphasis on rhythmic sounds,
+                  to help small children develop their ability to identify
+                  them. The original application combined colorful pictures
+                  with words in a playful way to allow children to interact
+                  with the ideas presented. </p>
+
+               <div class="row mb-4">
+                  <div class="col-lg-3 text-center"></div>
+                  <figure class="figure col-12 col-lg-6" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulOldVersion.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">The
+                        app's old version opening screen.</figcaption>
+                     <div class="col-lg-3"></div>
+               </div>
+               <div class="row h-100 align-items-center">
+                  <p class="col-12 mb-4 mt-4">Children could touch the
+                     screen,
+                     read and
+                     listen to the words, and
+                     discover the actions described through the animations
+                     played.
+                     Children became co-creators of the actions generated
+                     from
+                     the
+                     verses they read.</p>
+                  <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Characteristics
+                     of the App:</h5>
+                  <ul class="mb-4 p-4">
+                     <li class="mb-4 mt-1">Touch screen feature that plays
+                        great
+                        animations to capture children's attention and
+                        generate interaction.</li>
+                     <li class="mb-4 mt-4">Easy "read to me" feature,
+                        optional
+                        on every page.</li>
+                     <li class="mb-4 mt-4">Rhythmic sounds to help children
+                        learn and remember new words.</li>
+                     <li class="mb-4 mt-4">Attractive illustrations and a
+                        unique
+                        character.</li>
+                     <li class="mb-4 mt-4">A bilingual touch
+                        (English-Spanish)
+                        at the end of the book.</li>
+                     <li class="mb-4 mt-4">A good message about
+                        authenticity and
+                        joy.</li>
+                     <li class="mb-4 mt-4">Available in iPhone and iPad
+                        versions.</li>
+                     <li class="mb-4 mt-4">Easy to use!</li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="row h-100 align-items-center">
+               <figure class="figure col-12 col-md-6 align-items-center" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulScreen1.png" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-1">App's
+                     screen sample.</figcaption>
+               </figure>
+               <figure class="lazyload figure col-12 col-md-6 align-items-center" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulScreen2.png" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-1">App's
+                     screen sample.</figcaption>
+               </figure>
+            </div>
+
+            <h5 class="col-12 p-0 mb-3 ml-3 font-weight-dark text-uppercase text-dark text-center text-md-left text-lg-center">The
+               Re-Design of BI & Out</h5>
+
+            <div class="container p-4 text-justify bg-white">
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Introduction</h5>
+               <p class="col-12 mb-4 mt-4">In 2012 I designed and developed
+                  Beautiful Inside and Out, the app, for both iPhone and
+                  iPad. This is an update and optimization of the app. For
+                  this
+                  project, I played all the design roles within the complete
+                  design process. Bellow, I will describe in detail the
+                  process
+                  characteristics and steps.</p>
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">The
+                  Project's Goal</h5>
+               <p class="col-12 mb-4 mt-4">The purpose of this project is to
+                  deliver
+                  the best user experience - defined as the greatest
+                  satisfaction
+                  BI&Out’s users might get from interacting with the
+                  particular
+                  digital tool. To achieve this goal, I will start answering
+                  the
+                  following questions:</p>
+               <ul class="mb-4 mt-4">
+                  <li> Who is our user?</li>
+                  <li>Is the app’s content age appropriate to our target
+                     user?</li>
+                  <li>Does the app have all the essential features it needs
+                     to
+                     work properly?</li>
+                  <li>What issues require fixing?</li>
+                  <li>Is the application easy to use and learn?</li>
+               </ul>
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">The
+                  Strategy</h5>
+               <p class="col-12 mb-4 mt-4">I adopted the following design
+                  modality
+                  to accomplish my goal.</p>
+               <div class="row h-100 align-items-center">
+                  <figure class="figure col-12 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulDesignProc.jpg" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Design
+                        Process</figcaption>
+                  </figure>
+               </div>
+               <p class="col-12 mb-4 mt-4"><strong>Empathize:</strong> To
+                  define the
+                  app's users, I performed research (contextual research,
+                  expert
+                  reviews, personas). Based on the information, I built a
+                  persona
+                  to facilitate the design process.</p>
+               <p class="col-12 mb-4 mt-4"><strong>Define Goals:</strong> Based
+                  on
+                  the information collected from the previous step, I defined
+                  the
+                  requirements for an optimum children’s app’s user
+                  experience. To
+                  do it, I used tools such as sketching, storyboarding and
+                  wireframing.</p>
+               <p class="col-12 mb-4 mt-4"><strong>Create Solutions:</strong>
+                  Once
+                  the requirements were defined, it became clear what
+                  properties
+                  and features did not fit them. It was then time to define
+                  the
+                  corresponding design changes.</p>
+               <p class="col-12 mb-4 mt-4"><strong>Redesign:</strong> I made
+                  the
+                  required modifications to the graphics and content
+                  organization,
+                  and I re-coded for all necessary changes.</p>
+               <p class="col-12 mb-4 mt-4"><strong>Prototype:</strong> I used a
+                  prototype to test the app with selected users.</p>
+               <p class="col-12 mb-4 mt-4"><strong>Prototype:</strong> An
+                  important
+                  part of the user experience involves children handling all
+                  the
+                  different devices. This opens a new round of testing and
+                  possible more re-designing. By re-evaluating the project,
+                  we
+                  could learn and carefully observe how users responded to
+                  the new
+                  product features. Then, if necessary, we would re-define
+                  the
+                  goals and <strong>Re-design</strong>.</p>
+
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Persona</h5>
+
+               <figure class="figure col-12 align-items-center" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulPersona.jpg" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-1">User
+                     Persona:
+                     Olivia</figcaption>
+               </figure>
+               <figure class="figure col-12 align-items-center d-none d-sm-block" style="background-color:white;">
+                  <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulFeatures.png" alt="Responsive Image">
+                  <figcaption class="figure-caption text-right mt-1">App
+                     features</figcaption>
+               </figure>
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Re-design</h5>
+               <h6 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Home
+                  Screen</h6>
+
+               <div class="row h-100 align-items-center">
+                  <figure class="figure col-12 col-lg-6 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulHomeBefore.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Home
+                        screen before.</figcaption>
+                  </figure>
+                  <figure class="figure col-12 col-lg-6 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulHomeAfter.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Home
+                        screen after.</figcaption>
+                  </figure>
+               </div>
+               <h6 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">End
+                  Screen</h6>
+               <div class="row h-100 align-items-center">
+                  <figure class="figure col-12 col-lg-6 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulEndBefore.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Home
+                        screen before.</figcaption>
+                  </figure>
+                  <figure class="figure col-12 col-lg-6 align-items-center" style="background-color:white;">
+                     <img class="lazyload figure-img img-fluid rounded" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UX/BeautifulEndAfter.png" alt="Responsive Image">
+                     <figcaption class="figure-caption text-right mt-1">Home
+                        screen after.</figcaption>
+                  </figure>
+               </div>
+               <h5 class="col-12 p-0 mb-3 font-weight-normal text-uppercase text-dark text-center text-md-left text-lg-center">Prototype</h5>
+               <div class="row pb-4">
+                  <div class="col-md-2 center"></div>
+                  <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+
+                     <iframe src="https://www.youtube.com/embed/GgAu5qRoSwU" allowfullscreen class="embed-content mb-4"></iframe>
+                  </div>
+                  <div class="col-md-2"></div>
+               </div>
+               <p class="redNote mb-2 text-left p-4 text-danger border border-danger text-center" style="background-color: rgb(246, 245, 245);">For
+                  a complete version of the process, please explore the
+                  project
+                  from a
+                  bigger device.
+               </p>
+            </div>
+         </div>
+         <!--ANIMATION SAMPLES-->
+         <div id="AnimationSamplesPage" class="container pb-3 pt-3 text-center text-md-left section" style="background-color: white;">
+            <div class="col-12 text-center mb-4">
+               <p class="display-4 mb-3 mt-3 text-dark">Animation</p>
+               <h1 class=" mb-5 font-weight-light">Traditional and 2D
+                  Animation</h1>
+               <h2 class="col-12 p-0 mb-4 font-weight-light mt-4 text-left text-dark">1-TRADITIONAL
+                  ANIMATION</h2>
+            </div>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+               <p>I am an experienced traditional and 2D computer
+                  animator. As
+                  a
+                  traditional animator, I worked for renowned
+                  companies such
+                  as
+                  Walt
+                  Disney and Hanna-Barbera on fun and challenging
+                  projects
+                  such as
+                  Disney's
+                  <a href="https://www.imdb.com/title/tt0240684/fullcredits" target="_blank">Little
+                     Mermaid II.</a>
+                  One of those projects was <a href="https://en.wikipedia.org/wiki/Redux_Riding_Hood" target="_blank">Redux
+                     Riding
+                     Hood</a>,
+                  the very first Walt Disney's Oscar nomination for
+                  Best
+                  Animated
+                  Short
+                  Film. In addition to that, I
+                  animated characters for a number of tv
+                  commercials
+                  internationally.
+                  Besides
+                  working as an animator, I worked as a layout and
+                  storyboard
+                  artist.
+                  <!--See a partial list of <a href="https://www.imdb.com/name/nm0148728/?ref_=nv_sr_1">my
+                              animation work.</a></p>-->
+            </div>
+            <div class="row text-center">
+               <h3 class="col-12 p-0 mb-4 font-weight-light">Redux
+                  Riding Hood</h3>
+            </div>
+            <div class="row mb-4">
+               <div class="col-md-2 center"></div>
+               <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+                  <iframe src="https://www.youtube.com/embed/9qKc1a8CMZI" allowfullscreen class="embed-content mb-4"></iframe>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+            <div class="row text-center">
+               <h3 class="col-12 pt-4 mb-4 font-weight-light">Li'l
+                  Elvis Jones
+                  And
+                  The Trusckstroppers</h3>
+               <h3 class="col-12 p-0 mb-4 font-weight-light">(Opening
+                  Theme
+                  Sequence)</h3>
+            </div>
+            <div class="row">
+               <div class="col-md-2 center"></div>
+               <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+                  <iframe src="https://www.youtube.com/embed/4tgcg52cVLM" allowfullscreen class="embed-content mb-4"></iframe>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+            <div class="row text-center mt-4 mb-4">
+               <div class="col-12 text-center mb-4">
+                  <a class="BehanceTooltip btn btn-outline-secondary mt-3" data-toggle="tooltip" data-placement="bottom" title="This link will take you out of this site." href="https://www.behance.net/gallery/78328795/Traditional-Character-Animation"
+                    role="button" target="_blank">See more examples at
+                     Behance</a>
+               </div>
+            </div>
+            <div class="col-12 p-0 mb-3">
+               <h2 class="col-12 p-0 mb-4 font-weight-light mt-4 text-BeautifulHomeAfter text-left text-dark">1-COMPUTER
+                  2D
+                  ANIMATION</h2>
+            </div>
+            <div class="col-12 p-4 text-justify bg-white mb-4">
+               <p>I learned Adobe Flash when traditional animation
+                  transitioned
+                  to
+                  computer animation. I enjoyed it so much that I
+                  adopted it
+                  not
+                  only as an animation but a drawing and
+                  illustration tool.
+                  Thanks
+                  to Flash, and action script
+                  in particular, I discovered my love for web
+                  interaction and
+                  coding that brought me to become a front-end
+                  developer. </p>
+            </div>
+            <div class="col-12 p-0 mb-3">
+               <h3 class="col-12 p-0 mb-4 font-weight-light text-center">The
+                  Thin
+                  Line
+                  (between
+                  Raw
+                  and Jiggy.)</h3>
+            </div>
+            <div class="row mb-4">
+               <div class="col-md-2 center"></div>
+               <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+                  <iframe src="images/Animation/Nave2.m4v" allowfullscreen class="embed-content mb-4"></iframe>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+            <div class="row text-center">
+               <h3 class="col-12 p-0 mb-4 font-weight-light mt-4">Flash
+                  Animated
+                  Logo</h3>
+            </div>
+            <div class="row mb-4">
+               <div class="col-md-2 center"></div>
+               <div class="border rounded col-sm-12 col-md-8 embed-responsive embed-responsive-16by9">
+                  <iframe src="images/Animation/LogoAnimation.m4v" allowfullscreen class="embed-content"></iframe>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+            <div class="row text-center">
+               <h3 class="col-12 p-0 mb-4 font-weight-light mt-4">2D Computer
+                  Character Animation</h3>
+            </div>
+            <div class="container rounded pb-4">
+               <div class="row text-center align-items-center justify-content-center">
+                  <div class="col-12 col-md-9 col-lg-8">
+                     <img src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/Animation/Taxi.png" class="lazyload img-fluid rounded border border-dark mb-2" alt="Cartoon Animation Image">
+                     <a class="BehanceTooltip btn btn-outline-secondary mt-3" data-toggle="tooltip" data-placement="bottom" title="This link will take you out of this site." href="https://www.behance.net/gallery/78348873/Flash-Animation"
+                       role="button" target="_blank">Click here to see the
+                        animation at Behance</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--ANIMATION PAGE SECTION CLOSES -->
+         <!--SECTION: FOOTER-->
+
+         <footer class="footer">
+            <div class="col-12 pt-5">
+               <!--TOOLTIP for envelope-->
+               <a href="#" data-toggle="tooltip" data-placement="top" title="Click to email me."><img class="sobre emailImage" id="emailImage" src="images/emailClosed.png" alt="envelope closed"></a>
+               <p class="emailMe text-center">Email Me!</p>
+            </div>
+            <!--SOCIAL MEDIA SHARING-->
+            <div class="socialContainer container">
+               <div class="socialDiv text-center center-block ">
+                  <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                  <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-2x social ml-2 mr-2"></i></a>
+                  <!----<a href="#"><i id="social-pt" class="fa fa-pinterest-square fa-3x social mr-2"></i></a> -->
+                  <a href="#"><i id="social-lk" class="fa fa-linkedin-square fa-2x social mr-2"></i></a>
+                  <a class="" href="mailto:?subject=I would like you to see this site.&amp;body=Check out this site http://www.cerrottiadriana.com." title="Share by Email"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                  <p class="share subSocial ">Thank you for sharing my site!</p>
+               </div>
+               <hr>
+            </div>
+            <!--<div class="container arrowContainer" style="background-color:white;">-->
+            <div class="container ">
+               <div class="row">
+                  <div class=" col-12 rowArrow
+                      pt-1">
+                     <img class="lazyload moveUp" id="moveUp" src="images/arrow.png" alt="arrow up">
+                  </div>
+               </div>
+            </div>
+            <!---->
+            <div class="bottom">
+               <p class="share AC text-center text-dark p-1 h-100"><strong>Designed
+                     and
+                     developed
+                     by
+                     © Adriana Cerrotti</strong> </p>
+            </div>
+         </footer>
+         <!-- jQuery
+                 first, then Popper.js, then Bootstrap JS -->
+         <!-- Si tenéis jQuery importado a vuestro proyecto y os aparece este error con
+        muchas de sus funciones, slideUp, slideDown, slideToggle etc… es porque
+        seguramente tengamos importado la “nueva” versión ligera (SLIM) de jQuery.-->
+         <script src="https://code.jquery.com/jquery-3.2.1.js"> </script>
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+         <!-- Latest compiled and minified CSS (previous 4.0.0)-->
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+         <script src="index.js"></script>
+         <script src="jquery.js" type="text/javascript"></script>
+         <script src="jquery.lazyload.js" type="text/javascript"></script>
+         <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+         <!--Lazy Load-->
+      </main>
+   </body>
+
+</html>
