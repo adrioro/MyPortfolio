@@ -121,6 +121,9 @@ div p .textCaption{
   font-style: italic;rgb(244, 244, 244)
   font-size: 10px;
 }
+#navbarNavAltMarkup .navbar-nav{
+  color:white;
+}
 
 #navbarNavAltMarkup .navbar-nav a:hover{
   /color: rgb(217, 217, 217)!important;
