@@ -26,9 +26,10 @@ header{
 
 }
 .ACTitle{
-  text-shadow: 1px 1px 3px #acacac;
+  /*text-shadow: 1px 1px 3px #acacac;*/
   font-weight:250;
 }
+
 .cards {
   margin-top: 30px;
 }

@@ -219,6 +219,7 @@ toolTipFunction("#quizPageTooltip");
 toolTipFunction("#dribbbleTooltip");
 toolTipFunction("#dribbbleCardTooltip");
 toolTipFunction("#QuizCardTooltip");
+toolTipFunction(".LightningPageTooltip");
 
 
 
