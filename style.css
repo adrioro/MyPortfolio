@@ -186,7 +186,6 @@ div p .textCaption{
 }
 .homeText{
   text-align: center;
-  font-family: Montserrat, sans-serif;
   border-radius: 5px;
 }
 .MyName{
@@ -286,4 +285,21 @@ hr {
   border-color: black;
   color: black;
   width: 33px;
+}
+.oswald600{
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 2px;
+}
+.oswald400{
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.cavet700{
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 34px;
 }

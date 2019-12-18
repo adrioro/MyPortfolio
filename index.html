@@ -19,7 +19,9 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-      <!--For Open Graph: Facebook-->
+      <link rel="stylesheet" href="https://use.typekit.net/ivv3wld.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Oswald:300,400,600&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:200i,400" rel="stylesheet"><!-- Google font-->
       <link rel="stylesheet" href="style.css" class="css"><!-- <Required css style sheet</Re>-->
 
@@ -54,7 +56,7 @@
       <header class="header pt-2 pb-1" id="header" style="background-color: #090a0e;">
          <!-- Navigation Bar -->
          <div id="MyNav" class="navbar-container container">
-            <nav class="navbar-light bg-faded my_nav navbar navbar-expand-lg font-weight-light text-uppercase" style="background-color: #090a0e">
+            <nav class="navbar-light bg-faded my_nav navbar navbar-expand-lg font-weight-light" style="background-color: #090a0e">
                <!--navbar-light for icon line color-->
 
                <button id="navbar-toggler custom-toggler" class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
@@ -77,7 +79,7 @@
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           My Work
+                           Work
                         </a>
                         <div class="dropdown-menu" style="background-color: #090a0e;" aria-labelledby="navbarDropdown">
                            <a id="ux" class="dropdown-item" href="#">UXD</a>
@@ -88,11 +90,11 @@
                      </li>
                      <li>
                         <a class="nav-item nav-link" href="#" id="aboutMenu">About
-                           Me</a>
+                        </a>
                      </li>
                      <li>
                         <a id="contact" class="nav-item nav-link" href="mailto:cerrotti@protonmail.com">Email
-                           me</a>
+                        </a>
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -101,7 +103,7 @@
                         <div class="dropdown-menu" style="background-color: #090a0e;" aria-labelledby="navbarDropdown">
                            <a class="dropdown-item" href="https://www.linkedin.com/in/cerrotti/?trk=profile-badge" target="_blank">Linkedin</a>
                            <a class="dropdown-item" href="https://www.facebook.com/pg/UserInterfaceUserExperienceDesign/about/?ref=page_internal" target="_blank">Facebook</a>
-                           <a class="dropdown-item" href="https://www.behance.net/adrianacerrotti" target="_blank">Behance</a>
+                           <!---<a class="dropdown-item" href="https://www.behance.net/adrianacerrotti" target="_blank">Behance</a>--->
                         </div>
                      </li>
                   </ul>
@@ -121,7 +123,7 @@
          <div class="name" id="homeImage">
             <div class="MyName col-12  pt-3 mb-1">
 
-               <h1 class="ACTitle display-4 text-center pt-4 pb-5 font-weight-heavy" style="color:#ff4c46;">ADRIANA
+               <h1 class="ACTitle display-4 text-center pt-4 pb-5 font-weight-heavy oswald600" style="color:#ff4c46;">ADRIANA
                   CERROTTI UXD</h1>
 
                <!--SECTION:ICONS-->
@@ -180,142 +182,152 @@
          <section class="section container FrontEnd pb-4" style="background-color: white;" id="FrontEnd">
             <div class="row">
                <div class="col-12 text-center mt-5 mb-3">
-                  <div class="display-4 text-dark text-uppercase mb-5">UID & Coding</div>
+                  <h3 class="oswald600 display-4 text-dark text-uppercase mb-5">UID & Coding</h3>
                </div>
                <div class="col-12 text-center bg-white mb-3 ">
                </div>
             </div>
 
-            <!---NEW FORMATING BOX--->
-            <!---Upper Sandusky--->
-            <div class="container mb-5">
-               <div class="row">
-                  <div class="col-8 p-2" style="background-color: #090a0e;">
-                     <div align="text-center" class="embed-responsive embed-responsive-16by9">
-                        <video autoplay loop class="embed-responsive-item">
+            <!--- NEW LAYOUT--->
+            <!--Sandusky card-->
+            <div class="container">
+               <div class="row mb-5">
+                  <div class="col-md-2"></div>
+                  <div class="card col-sm-12 col-md-8 mb-5" style="width: 27rem; background-color: #090a0e;">
+                     <div class="oswald text-light text-center p-4 pt-5">
+                        <h2 class="oswald400 text-uppercase">Upper Sandusky Community Library</2>
+                     </div>
+                     <div align="text-center text-light" class="embed-responsive embed-responsive-16by9">
+                        <video class="pt-4 pb-4" autoplay loop class="embed-responsive-item">
                            <source src="images/UI/SANDUSKY_PROTOTYPE.mov" type="video/mp4">
                         </video>
                      </div>
+                     <div class="text-center pb-5 ">
+                        <h4>User Interface Re-design</h4>
+                        <a class="card-link" id="sandusky" href="#">Explore
+                           the
+                           process</a>
+                     </div>
                   </div>
-                  <div class="col-4 p-4 text-center" style="background-color: #d0d8f1;">
-                     <h2 class="cardTitles text-dark p-1 pt-5 ">UPPER SANDUSKY</h2>
-                     <h4 class="text-dark p-1  ">Community Library</h4>
-                     <h4 class="text-dark  p-1 pb-3 text-center">(PART 2)</h4>
-                     <p class="text-dark">UI / Re-design</p>
-
-                     <a class="card-link" id="sandusky" href="#">Explore
-                        the
-                        project.</a>
-                  </div>
+                  <div class="col-md-2"></div>
                </div>
-            </div>
 
-            <!---e-commerce--->
-            <div class="container mt-5">
+               <!--DShots-->
+
                <div class="row">
-                  <div class="col-4 p-4 text-center" style="background-color: #f09898;">
-                     <h2 class="cardTitles text-dark p-1 pt-5 ">DSHOTS</h2>
-                     <h4 class="text-dark p-1  ">E-commerce website</h4>
-                     <p class="text-dark">UI / UI design</p>
-                  </div>
-
-                  <div class="col-8 p-2" style="background-color: #dedede;">
+                  <div class="col-md-2"></div>
+                  <div class="card col-sm-12 col-md-8" style="width: 27rem; background-color: #090a0e;">
+                     <div class="oswald text-light text-center p-4 pt-5">
+                        <h2 class="oswald400 text-uppercase">DShots Photography</2>
+                     </div>
+                     <div class="text-center">
+                        <h4>Responsive User Interface Design</h4>
+                     </div>
                      <div align="text-center" class="embed-responsive embed-responsive-16by9">
-                        <video autoplay loop class="embed-responsive-item">
-                           <source src="images/UI/e-commerce.mp4" type="video/mp4">
-                        </video>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="row">
-                  <div class="col-12 p-4 text-center" style="background-color: #dedede;">
-                     <div align="text-center" class="">
-                        <img class="img-fluid" src="images/UI/FlashMess_Image_ACerrotti.png" alt="">
-                     </div>
-                  </div>
-               </div>
-
-               <div class="row">
-                  <div class="col-9 p-3" style="background-color: #090a0e;">
-                     <div align=" text-center" class="embed-responsive embed-responsive-16by9">
-                        <video autoplay loop class="embed-responsive-item">
+                        <video class="pt-4 pb-5" autoplay loop class="embed-responsive-item">
                            <source src="images/UI/ProfilePage_ACerrotti_1.mp4" type="video/mp4">
                         </video>
                      </div>
+                     <div align="text-center" class="">
+                        <img class="img-fluid pt-4" src="images/UI/FlashMess_Image_ACerrotti.png" alt="">
+                     </div>
+                     <div align="text-center" class="embed-responsive embed-responsive-16by9">
+                        <video class="pt-5 pb-5" autoplay loop class="embed-responsive-item">
+                           <source src="images/UI/e-commerce.mp4" type="video/mp4">
+                        </video>
+                     </div>
+                     <div align="text-center" class="embed-responsive embed-responsive-16by9">
+                        <video class="pt-5 pb-5" autoplay loop class="embed-responsive-item">
+                           <source src="images/UI/ShareButton.mp4" type="video/mp4">
+                        </video>
+                     </div>
+                     <div class="text-center pb-5 ">
+                        <h4>User Interface Design</h4>
+                        <h4 class="cavet700">Sketch/inVision</h4>
+                     </div>
                   </div>
-                  <div class="col-3 p-3 text-center" style="background-color: #f09898;">
+                  <div class="col-md-2"></div>
+               </div>
 
-                     <h4 class="text-dark p-1">Tools:</h4>
-                     <p class="text-dark">Sketch / inVision</p>
+
+               <!--Music Player-->
+               <div class="row mb-5 mt-5">
+                  <div class="col-md-2"></div>
+                  <div class="card col-sm-12 col-md-8 mb-5" style="width: 27rem; background-color: #090a0e;">
+                     <div class="oswald text-light text-center p-4 pt-5">
+                        <h2 class="oswald400 text-uppercase">Interactive Music Player</2>
+                     </div>
+                     <div align="text-center text-light" class="embed-responsive embed-responsive-16by9">
+                        <video class="pt-4 pb-4" autoplay loop class="embed-responsive-item">
+                           <source src="images/UI/musicPlayer.mp4" type="video/mp4">
+                        </video>
+                     </div>
+                     <div class="text-center pb-5 ">
+                        <h4>User Interface Design</h4>
+                        <h4 class="cavet700">inVision</h4>
+                     </div>
                   </div>
+                  <div class="col-md-2"></div>
+               </div>
+               <!--Calculator-->
+               <div class="row mb-5 mt-5">
+                  <div class="col-md-2"></div>
+                  <div class="card col-sm-12 col-md-8 mb-5" style="width: 27rem; background-color: #090a0e;">
+                     <div class="oswald text-light text-center p-4 pt-5">
+                        <h2 class="oswald400 text-uppercase">Calculator</2>
+                     </div>
+                     <div align="text-center text-light" class="embed-responsive embed-responsive-16by9">
+                        <video class="pt-4 pb-4" autoplay loop class="embed-responsive-item">
+                           <source src="images/UI/calculator.mp4" type="video/mp4">
+                        </video>
+                     </div>
+                     <div class="text-center pb-5">
+                        <h4>User Interface Design</h4>
+                        <h4 class="cavet700">Sketch/inVision</h4>
+                     </div>
+                  </div>
+                  <div class="col-md-2"></div>
                </div>
             </div>
 
-
-
-
-
-            <div class="cards container">
-               <div class="firstRow row">
-                  <!--Sandusky card-->
-                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:">
-                     <img id="sanduskyCardImage" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="
-                      images/UI/sanduskyCard.png" alt="Card image cap"><a href="#"></a>
-                     <div class="card-body mt-2">
-                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">Sandusky Community Library Project (Part 2)</h5>
-                        <p class="subtitles card-title font-weight-light text-dark">Website re-design project.
-                        </p>
-                        <ul class="subtitles card-title text-dark font-weight-light">
-                           <li>UID</li>
-                           <li>Visual Design </li>
-                           <li>Hi-Fi Sketch Prototype.
-                           </li>
-                        </ul>
-                        <a id="sandusky" href="#" class="card-link">Explore
-                           the
-                           project.</a>
-                     </div>
-                  </div>
-                  <!--Dribbble Card-->
-                  <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:15px;">
-                     <a href="https://dribbble.com/adrioro/projects" target="_blank" id="dribbbleCardTooltip" data-toggle="tooltip" data-placement="top" title="Dribbble will open in a new window"><img id="quizCardImage" class="lazyload card-img-top"
-                          src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/dribbbleCard.png" alt="Card image cap"></a>
-                     <div class="card-body mt-2">
-                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">MY UI PROJECTS AT DRIBBBLE</h5>
-                        <p class="subtitles card-title font-weight-light text-dark">Check my prototypes, icons, and other UI designs projects at Dribbble.</p>
-                        <ul class="subtitles card-title text-dark font-weight-light">
-                           <li>UI Design </li>
-                           <li>Sketch</li>
-                           <li>inVision</li>
-                           <li>AdobeXD</li>
-                        </ul>
-                        <p><a href="https://dribbble.com/adrioro/projects" target="_blank" id="dribbbleTooltip" data-toggle="tooltip" data-placement="bottom" title="Dribbble will open in a new window">Visit
-                              my dribbble portfolio .</a></p>
-                     </div>
+            <!--Interactive Quiz-->
+            <div class="row mb-5">
+               <div class="col-md-2"></div>
+               <div class="card col-sm-12 col-md-8 mb-5" id="quizCardImage" style="width: 27rem; background-color: #090a0e;">
+                  <div class="oswald text-light text-center p-4 pt-5">
+                     <h2 class="oswald400 text-uppercase">Coding</2>
                   </div>
 
-                  <!--Quiz card-->
+                  <div align="text-center" class="">
+                     <img class="img-fluid pt-4" src="images/UI/quizCard.png" alt="">
+                  </div>
+
+                  <div class="text-center pt-4 pb-4 ">
+                     <h4>Coding</h4>
+                     <h4 class="cavet700"> JQuery/Javascript <br> HTML5/CSS </h4>
+                     <p><a href="https://interactive-quiz-full-version--acerreplit.repl.co/" target="_blank" id="quizPageTooltip" data-toggle="tooltip" data-placement="bottom" title="The Quiz will open in a new window.">Visit
+                           the Quiz page.</a></p>
+                  </div>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+
+         </section>
+
+         <!--Dribbble Card
+                    <p><a href="https://dribbble.com/adrioro/projects" target="_blank" id="dribbbleTooltip" data-toggle="tooltip" data-placement="bottom" title="Dribbble will open in a new window">Visit
+                    my dribbble portfolio .</a></p>
+                    -->
+
+         <!--lazyload
                   <div class="card col-sm-auto mb-5" style="width: 27rem; padding-top:15px;">
                      <a href="https://interactive-quiz-full-version--acerreplit.repl.co/" target="_blank" id="QuizCardTooltip" data-toggle="tooltip" data-placement="top" title="Interactive Quiz App will open in a new window"><img id="quizCardImage"
                           class="lazyload card-img-top"><img id="quizCardImage" class="lazyload card-img-top" src="http://www.cerrottiadriana.com//images/ACLoader.gif" data-src="images/UI/quizCard.png" alt="Card image cap"></a>
-                     <div class="card-body mt-2">
-                        <h5 class="subtitles card-title font-weight-normal text-dark text-uppercase">INTERACTIVE QUIZ</h5>
-                        <p class="subtitles card-title font-weight-light text-dark">This is an interactive quiz. I designed and developed it. It tests people's knowledge about HTML and demonstrates my coding skills.</p>
-                        <ul class="subtitles card-title text-dark font-weight-light">
-                           <li>UI Design </li>
-                           <li>Responsive Hi-Fi Mockup
-                              (HTML5, CSS, Javascript, JQuery).</li>
-                        </ul>
-                        <p><a href="https://interactive-quiz-full-version--acerreplit.repl.co/" target="_blank" id="quizPageTooltip" data-toggle="tooltip" data-placement="bottom" title="Interactive Quiz App will open in a new window">Visit
-                              the Quiz page.</a></p>
-                     </div>
                   </div>
-               </div>
-
-            </div>
-         </section>
+                  <!---->
          <!---------------->
+
+
          <!--SECTION: ILLUSTRATION CARDS-->
          <section class="section container illustrationKinds pb-3" style="background-color: white;" id="IllustrationKinds">
             <div class="row">
@@ -370,7 +382,7 @@
          <section class="section container UXDesign" id="UXDesign">
             <div class="UXTExt firstRow row p-5" style="background-color: white;">
                <div class="col-12 text-center pt-4">
-                  <h1 class="display-4 text-dark">UX Design (UXD)</h1>
+                  <h1 class="oswald600 text-uppercase display-4 text-dark">UX Design</h1>
                </div>
                <div class="col-12 p-4 text-justify bg-white mb-3">
                   <p>I am trained to design effective user experiences and
@@ -588,8 +600,8 @@
          <section class="section container about" style="background-color: white;" id="about">
             <div class="row">
                <div class="col-12 text-center mt-4 mb-4">
-                  <h1 class="display-4">About Me</h1>
-                  <h3 class="h3About font-weight-light">Adriana Cerrotti</h3>
+                  <h1 class="oswald600 text-uppercase text-dark display-4">About Me</h1>
+                  <!---<h3 class="h3About font-weight-light">Adriana Cerrotti</h3>--->
                </div>
 
             </div>
@@ -597,8 +609,8 @@
             <div class="myAbout container ">
                <div class="aboutRow row">
                   <div class="col-sm-8 col-lg-7 main-text text-sm-center text-md-left text-lg-left">
-                     <h1>I am...</h1>
-                     <p>A UX/UI designer passionate about creating solutions, efficient information architecture, software interaction, and user-centered design from a design thinking approach.</p>
+                     <h1 class="oswald600 text-uppercase text-dark">I am...</h1>
+                     <p>Adriana Cerrotti. A UX/UI designer passionate about creating solutions, efficient information architecture, software interaction, and user-centered design from a design thinking approach.</p>
                      <br>
                      <p>I have a Master’s of Science in Information Architecture and Knowledge Management with a concentration in User Experience Design from Kent State University. </p>
                      <br>
@@ -621,11 +633,11 @@
                   <div class="WhatDoIDoRow row">
                      <div class=" col-lg-1"></div>
                      <div class=" col-sm-12 col-md-12 col-lg-10 whatDoIDo text-sm-center text-md-center mx-auto">
-                        <h2 class="pt-5">What do I do?</h2>
+                        <h1 class="oswald600 text-uppercase text-dark pt-5">What do I do?</h1>
                         <div class="DoList col-sm-12 col-md-12 col-lg-10 text-sm-center mx-auto">
                            <ul class="doList list-unstyled">
                               <li class="WorkingField">
-                                 <h4 class="pt-4 text-left text-info font-weight-heavy">UX
+                                 <h4 class="oswald600 text-uppercase text-dark pt-4 text-left text-info font-weight-heavy">UX
                                     Design</h4>
                                  <p class="text-left">I hear and
                                     respond
@@ -643,7 +655,7 @@
 
                               </li>
                               <li class="WorkingField">
-                                 <h4 class="pt-4 text-left text-info font-weight-heavy">UI
+                                 <h4 class="oswald600 text-uppercase text-dark pt-4 text-left text-info font-weight-heavy">UI
                                     Design and Coding</h4>
                                  <p class="text-left">I have a
                                     passion
@@ -660,7 +672,7 @@
                                  </div>
 
 
-                                 <h4 class="pt-4 text-left text-info font-weight-heavy">Animation</h4>
+                                 <h4 class="oswald600 text-uppercase text-dark pt-4 text-left text-info font-weight-heavy">Animation</h4>
                                  <p class="text-left">I have a vast
                                     experience in the field of
                                     animation,
@@ -670,23 +682,15 @@
 
                         </div>
                         <div class="getInTouch text-center col-sm 12 col-md-10 col-lg-10 mx-auto">
-                           <h2 class="pt-5">Interested in Hiring Me?</h2>
+                           <h1 class="oswald600 text-uppercase text-dark pt-5">Interested in Hiring Me?</h1>
                            <p>I'd love to hear about your project!
                         </div>
-                        <button class="emailImage emailButton btn btn-light mb-4 mt-4">
-                           Email Me
-                        </button>
-                        <div class="socialMedia p-2 text-center">
-                           <p>Or follow me at:</p>
-                           <p><a href="https://www.linkedin.com/in/cerrotti?trk=profile-badge" target="_blank">Lindedin</a><br>
-                              <a href="https://www.facebook.com/pg/Adriana-Cerrotti-UXUI-Developer-370764413653216/about/?ref=page_internal" target="_blank">Facebook</a><br>
-                              <a href="https://www.behance.net/adrianacerrotti" target="_blank">Behance</a></p>
-                        </div>
+
                      </div>
-                     <div class="col-lg-1"></div>
+
                      <!--Sides-->
                   </div>
-                  <hr>
+
                </div>
          </section>
 
@@ -2824,7 +2828,6 @@
             <div class="col-12 pt-5">
                <!--TOOLTIP for envelope-->
                <a href="#" data-toggle="tooltip" data-placement="top" title="Click to email me."><img class="sobre emailImage" id="emailImage" src="images/emailClosed.png" alt="envelope closed"></a>
-               <p class="emailMe text-center">Email Me!</p>
             </div>
             <!--SOCIAL MEDIA SHARING-->
             <div class="socialContainer container">
